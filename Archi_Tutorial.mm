@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756648752130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.826">
+<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756648752130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.6830134">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_sky_element_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -87,11 +87,12 @@
 <font BOLD="true"/>
 <node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_927757062" CREATED="1756648717280" MODIFIED="1756648733978">
 <node TEXT="Archi® is an Open Source, cross-platform tool to create ArchiMate models" ID="ID_1322012808" CREATED="1756650884724" MODIFIED="1756650928859"/>
-<node TEXT="Other Open Source Alternatives" ID="ID_1896134479" CREATED="1756650929279" MODIFIED="1756650951286">
-<node TEXT="Modelio" ID="ID_321023630" CREATED="1756650951290" MODIFIED="1756650977111"/>
+<node TEXT="ArchiMate® Tool Certification" ID="ID_8044282" CREATED="1756652075701" MODIFIED="1756652098866" LINK="https://www.opengroup.org/certifications/archimate/tools"/>
+<node TEXT="Other Open Source Alternatives" ID="ID_1896134479" CREATED="1756650929279" MODIFIED="1756652149645">
+<node TEXT="Modelio" ID="ID_1101950841" CREATED="1756652138686" MODIFIED="1756652144885" LINK="https://github.com/ModelioOpenSource/Modelio"/>
 </node>
-<node TEXT="Other Commercial Alternatives" ID="ID_1466649698" CREATED="1756650939222" MODIFIED="1756650948463">
-<node TEXT="Sparx EA" ID="ID_1601926750" CREATED="1756650978686" MODIFIED="1756650983706"/>
+<node TEXT="Other Commercial Alternatives" ID="ID_1466649698" CREATED="1756650939222" MODIFIED="1756652159905">
+<node TEXT="Sparx EA" ID="ID_1133552350" CREATED="1756652151350" MODIFIED="1756652154746"/>
 </node>
 </node>
 <node TEXT="02 Installing and Launching Archi" POSITION="bottom_or_right" ID="ID_1592065611" CREATED="1756648734160" MODIFIED="1756648828930"/>
