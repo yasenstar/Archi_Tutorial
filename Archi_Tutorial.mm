@@ -85,7 +85,15 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_927757062" CREATED="1756648717280" MODIFIED="1756648733978"/>
+<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_927757062" CREATED="1756648717280" MODIFIED="1756648733978">
+<node TEXT="Archi® is an Open Source, cross-platform tool to create ArchiMate models" ID="ID_1322012808" CREATED="1756650884724" MODIFIED="1756650928859"/>
+<node TEXT="Other Open Source Alternatives" ID="ID_1896134479" CREATED="1756650929279" MODIFIED="1756650951286">
+<node TEXT="Modelio" ID="ID_321023630" CREATED="1756650951290" MODIFIED="1756650977111"/>
+</node>
+<node TEXT="Other Commercial Alternatives" ID="ID_1466649698" CREATED="1756650939222" MODIFIED="1756650948463">
+<node TEXT="Sparx EA" ID="ID_1601926750" CREATED="1756650978686" MODIFIED="1756650983706"/>
+</node>
+</node>
 <node TEXT="02 Installing and Launching Archi" POSITION="bottom_or_right" ID="ID_1592065611" CREATED="1756648734160" MODIFIED="1756648828930"/>
 <node TEXT="03 Working in Archi" POSITION="bottom_or_right" ID="ID_1804088701" CREATED="1756648829265" MODIFIED="1756648834043"/>
 <node TEXT="04 Creating a New ArchiMate Model" POSITION="bottom_or_right" ID="ID_667453537" CREATED="1756648834198" MODIFIED="1756648842539"/>
