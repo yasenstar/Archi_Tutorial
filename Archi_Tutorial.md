@@ -19,8 +19,6 @@
 
 # 03 Working in Archi
 
-## 
-
 # 04 Creating a New ArchiMate Model
 
 # 05 The Model Tree
