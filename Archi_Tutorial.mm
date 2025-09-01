@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756715361271" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.56447387">
+<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756715361271" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.9090909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_sky_element_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -97,9 +97,7 @@
 </node>
 </node>
 <node TEXT="02 Installing and Launching Archi" POSITION="bottom_or_right" ID="ID_1592065611" CREATED="1756648734160" MODIFIED="1756648828930"/>
-<node TEXT="03 Working in Archi" FOLDED="true" POSITION="bottom_or_right" ID="ID_1804088701" CREATED="1756648829265" MODIFIED="1756648834043">
-<node TEXT="" ID="ID_1977153" CREATED="1756694605797" MODIFIED="1756694605797"/>
-</node>
+<node TEXT="03 Working in Archi" POSITION="bottom_or_right" ID="ID_1804088701" CREATED="1756648829265" MODIFIED="1756648834043"/>
 <node TEXT="04 Creating a New ArchiMate Model" POSITION="bottom_or_right" ID="ID_667453537" CREATED="1756648834198" MODIFIED="1756648842539"/>
 <node TEXT="05 The Model Tree" FOLDED="true" POSITION="bottom_or_right" ID="ID_916062858" CREATED="1756648842720" MODIFIED="1756648847850">
 <node TEXT="05.01 Adding Elements Directly to the Model Tree" POSITION="bottom_or_right" ID="ID_705189630" CREATED="1756695039236" MODIFIED="1756702914701"/>
