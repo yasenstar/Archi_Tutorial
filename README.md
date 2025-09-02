@@ -5,6 +5,7 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
 - [Archi\_Tutorial](#archi_tutorial)
   - [Structure of the User Guide Content](#structure-of-the-user-guide-content)
   - [Direct Links for Key Archi Resources](#direct-links-for-key-archi-resources)
+  - [Video Lists for Demostration the User Guide](#video-lists-for-demostration-the-user-guide)
 
 ## Structure of the User Guide Content
 
@@ -16,6 +17,10 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
 - [Archi User Guide (5.6.0)](https://www.archimatetool.com/downloads/archi/Archi%20User%20Guide.pdf)
 - [Archi Tool Forum](https://forum.archimatetool.com)
 - [Archi Project in Github](https://github.com/archimatetool/archi)
+
+## Video Lists for Demostration the User Guide
+
+- [Archi Modeling Tutorial base on User Guide 5.6.0 @ YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXrv1A4AV2wy1RDv-Y5MRip)
 
 ---
 
