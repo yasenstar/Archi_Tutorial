@@ -6,6 +6,7 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
   - [Structure of the User Guide Content](#structure-of-the-user-guide-content)
   - [Direct Links for Key Archi Resources](#direct-links-for-key-archi-resources)
   - [Video Lists for Demostration the User Guide](#video-lists-for-demostration-the-user-guide)
+  - [Understand Archi Model's E-R](#understand-archi-models-e-r)
 
 ## Structure of the User Guide Content
 
@@ -21,6 +22,12 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
 ## Video Lists for Demostration the User Guide
 
 - [Archi Modeling Tutorial base on User Guide 5.6.0 @ YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXrv1A4AV2wy1RDv-Y5MRip)
+
+## Understand Archi Model's E-R
+
+Once exporting Archi model to HTML report, understanding below E-R diagram will benefit you to query needed information:
+
+![Archi E-R](img/Archi_E-R.png)
 
 ---
 
