@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Note and Connection" id="id-a8f45bbf9e1249bf94bc0309cab360ba" version="5.0.0">
+  <folder name="Strategy" id="id-75bd857cd28c4d9599826d1fbb80f4f5" type="strategy"/>
+  <folder name="Business" id="id-828d0890e32941fc9b3566862fc98645" type="business"/>
+  <folder name="Application" id="id-ab7b0b9729d74c4380150b26f4c4a631" type="application">
+    <element xsi:type="archimate:DataObject" name="Customer File Data" id="id-86d7f4c6065140b4b66a3c7b73d2f167"/>
+    <element xsi:type="archimate:DataObject" name="Damage Claim Data" id="id-7e76aebdc52e46ea8037c98e64173f91"/>
+    <element xsi:type="archimate:DataObject" name="Insurance Policy Data" id="id-6fcd1531325642d289b55b4d1ddb7a12"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-a820d9c17a6b4e8ba348fccc799e0c79"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-0614c8861a2341548ba7ca84dcaae1f4" type="technology"/>
+  <folder name="Motivation" id="id-78dfd9c653aa4acabaf9b893f02fbcd6" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-45d21fda8b2d49f598206b0f9baf3cee" type="implementation_migration"/>
+  <folder name="Other" id="id-0ed49c27dbb84779b69323ab2ca0edfc" type="other"/>
+  <folder name="Relations" id="id-6add8ef26afc4c5ebfaff608dbc07eba" type="relations">
+    <element xsi:type="archimate:AccessRelationship" id="id-c836a9409a444e159de4f6b5a29c1225" source="id-a820d9c17a6b4e8ba348fccc799e0c79" target="id-7e76aebdc52e46ea8037c98e64173f91"/>
+  </folder>
+  <folder name="Views" id="id-202e3e716f6b432a80ad2fa2467ee25e" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="MyView" id="id-c2e78e64f56b4ff99d5e7bdcf4cba45f">
+      <child xsi:type="archimate:DiagramObject" id="id-57edd115ccf74219877e0c4eb98c80ca" targetConnections="id-a23a7cfb3bb14275b2e9888bb82e4a1b" archimateElement="id-86d7f4c6065140b4b66a3c7b73d2f167">
+        <bounds x="106" y="89" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-cf96f5ba2c95408cba11ae339a53503e" targetConnections="id-0636dd8c949447f69adc38226bd04dfd id-80256cc04374451ead49361548f14f99" archimateElement="id-7e76aebdc52e46ea8037c98e64173f91">
+        <bounds x="106" y="180" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-022fd3e9b4474d8d99a60c0ae985197d" archimateElement="id-6fcd1531325642d289b55b4d1ddb7a12">
+        <bounds x="106" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-151d6e3879ce4b68827d47c632d54911" fillColor="#c0c0c0" textPosition="1">
+        <bounds x="292" y="60" width="162" height="75"/>
+        <feature name="labelExpression" value="«$view{name}»&#xD;&#xA;${content}"/>
+        <sourceConnection id="id-a23a7cfb3bb14275b2e9888bb82e4a1b" source="id-151d6e3879ce4b68827d47c632d54911" target="id-57edd115ccf74219877e0c4eb98c80ca"/>
+        <sourceConnection id="id-80256cc04374451ead49361548f14f99" source="id-151d6e3879ce4b68827d47c632d54911" target="id-cf96f5ba2c95408cba11ae339a53503e"/>
+        <content>Another example of an ArchiMate ViewPoint</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-03fdbd5c46c0407f9cdf2783bdd671b4" archimateElement="id-a820d9c17a6b4e8ba348fccc799e0c79">
+        <bounds x="468" y="180" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-0636dd8c949447f69adc38226bd04dfd" targetConnections="id-95b832390bcd494da67edc203762c1fa" source="id-03fdbd5c46c0407f9cdf2783bdd671b4" target="id-cf96f5ba2c95408cba11ae339a53503e" archimateRelationship="id-c836a9409a444e159de4f6b5a29c1225"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-306374a7c1e14065b2e25d3d9323d3ef" textAlignment="1">
+        <bounds x="324" y="252" width="130" height="34"/>
+        <sourceConnection id="id-95b832390bcd494da67edc203762c1fa" source="id-306374a7c1e14065b2e25d3d9323d3ef" target="id-0636dd8c949447f69adc38226bd04dfd"/>
+        <content>Accessing Claim</content>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
