@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Reference View" id="id-e4db659607304fcd87fe5b7972dd77ae" version="5.0.0">
-  <folder name="Strategy" id="id-2daaaf3d2d234ca4a7eac1d0148bafbd" type="strategy"/>
-  <folder name="Business" id="id-7b64695721794ae4b76faace97413236" type="business"/>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Reference Model" id="id-e4db659607304fcd87fe5b7972dd77ae" version="5.0.0">
+  <folder name="Strategy" id="id-2daaaf3d2d234ca4a7eac1d0148bafbd" type="strategy">
+    <folder name="myfolder" id="id-b9c383a39f5347f1af11210f84c3e72f">
+      <feature name="labelExpression" value="$model{name} - ${name}"/>
+      <element xsi:type="archimate:Resource" name="Resource" id="id-42de60f43539467fbaddf4c78c1735ba"/>
+    </folder>
+  </folder>
+  <folder name="Business" id="id-7b64695721794ae4b76faace97413236" type="business">
+    <element xsi:type="archimate:BusinessInteraction" name="Business Interaction" id="id-0638bbfa7682432d891fde06249db263"/>
+  </folder>
   <folder name="Application" id="id-a47785ea4da54cfb831140f468b6375e" type="application"/>
   <folder name="Technology &amp; Physical" id="id-ba67163dffb14aa8b652924427ff2de8" type="technology"/>
   <folder name="Motivation" id="id-0028442eb975495fb59fbba28637ebc4" type="motivation"/>
@@ -92,11 +99,20 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Application Behaviour View" id="id-c845d770da014d77849e833cd3976d2b">
       <child xsi:type="archimate:Note" id="id-da5deb0c20054b0b96ebffcbac3d1d62" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
-        <bounds x="106" y="58" width="423" height="51"/>
+        <bounds x="216" y="60" width="423" height="51"/>
         <feature name="labelExpression" value="$view{name}"/>
       </child>
       <child xsi:type="archimate:DiagramModelReference" id="id-0d9213c24d9a4336987495f5502316ab" model="id-90e550fc5225423abddd4c843223da9b">
         <bounds x="481" y="123" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-5ee7f9e8468e478fb7eec2ad72fa3296" textAlignment="1">
+        <bounds x="24" y="252" width="185" height="41"/>
+        <feature name="labelExpression" value="$model{name} - ${content}"/>
+        <content>test label</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3e5b623d00d0499eb376b676c4eb10b3" archimateElement="id-0638bbfa7682432d891fde06249db263">
+        <bounds x="12" y="48" width="176" height="55"/>
+        <feature name="labelExpression" value="$model{name} - ${name}"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Application Structure View" id="id-e6c6429078fe471d9b26c265a7f6c979">
