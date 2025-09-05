@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Reference View" id="id-e4db659607304fcd87fe5b7972dd77ae" version="5.0.0">
+  <folder name="Strategy" id="id-2daaaf3d2d234ca4a7eac1d0148bafbd" type="strategy"/>
+  <folder name="Business" id="id-7b64695721794ae4b76faace97413236" type="business"/>
+  <folder name="Application" id="id-a47785ea4da54cfb831140f468b6375e" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-ba67163dffb14aa8b652924427ff2de8" type="technology"/>
+  <folder name="Motivation" id="id-0028442eb975495fb59fbba28637ebc4" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-b1d90aa6d29a44818487b611b86b5d05" type="implementation_migration"/>
+  <folder name="Other" id="id-2aad3275e04d422c84321269ec0d27aa" type="other"/>
+  <folder name="Relations" id="id-0d1c958c55614f0ea7488fdb5fec1ce1" type="relations"/>
+  <folder name="Views" id="id-52fdf758e8964ae49c167c007a7ee52a" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Goal and Principle view" id="id-fa35f2efd9794d55a8b109d4152ed911">
+      <child xsi:type="archimate:Note" id="id-898f4e1597774172bdbd33be9f8c0714" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-afc05e0db0124f2088377de76b4db5d2" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="480" y="120" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Layered View" id="id-a9d21701cf3f4945a7bf837b6adf7375">
+      <child xsi:type="archimate:Note" id="id-d9eb27129494444b8e9781c6a9f4dff5" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-81e68b50265842189ea9f8449d23d602" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="480" y="120" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Business Product View" id="id-cf729059904f4355b5be22e940e3eea0">
+      <child xsi:type="archimate:Note" id="id-baea68dc9a1f4d3a8ab9ab2241114e4c" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-63ed09cb2f74499182878646c800311b" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="521" y="163" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Service Realization View" id="id-e97d9b84ca454f89a67cfb11724c82a6">
+      <child xsi:type="archimate:Note" id="id-24e6aa5a23944f7487f8dc8472bd720f" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-529a638ce7ed4ae49d2e5a01ec6b1b1f" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="482" y="129" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Information Structure View" id="id-2a08ef4c018b47908ce5e0acb5baaae6">
+      <child xsi:type="archimate:Note" id="id-59004461ee804e0dac4f6363087820ce" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-2571a7240cd04d339b3f17c6aa832755" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="456" y="120" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Business Function View" id="id-6e37dfea8c0545c1a22b4942d04baaef">
+      <child xsi:type="archimate:Note" id="id-c04f58d694e4407f80dac379bbf206c4" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-84025352e3cc4354b0c1b1b82387bec3" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="501" y="143" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Business Process View" id="id-bc496b9cab7e4e3aa98295f35bd4caa2">
+      <child xsi:type="archimate:Note" id="id-a8da7c3889c946d180e29d4a96433e42" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-4526a339cdac4ad68bfc810354c6a7f0" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="511" y="153" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Organization Structure View" id="id-b9540fcb19a14d9dab5943a9ce40d61d">
+      <child xsi:type="archimate:Note" id="id-f29ba69a0e3e45bfa17f899db3ec695b" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-9d5caa1d6cbf4bcb8503742c300236b9" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="490" y="130" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Organization Tree View" id="id-3368a201b02a48d48a22658d8a388c0c">
+      <child xsi:type="archimate:Note" id="id-44f3c3ddb5684f6290e68e14f3d31320" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-ddef3dacc7714118a011c8948c7f4bb7" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="500" y="140" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Application Behaviour View" id="id-c845d770da014d77849e833cd3976d2b">
+      <child xsi:type="archimate:Note" id="id-da5deb0c20054b0b96ebffcbac3d1d62" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-0d9213c24d9a4336987495f5502316ab" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="481" y="123" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Application Structure View" id="id-e6c6429078fe471d9b26c265a7f6c979">
+      <child xsi:type="archimate:Note" id="id-aa1e42bcce9e40568f82875541c15adc" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-54bdd7c1a3864520928d9a856c927df4" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="491" y="133" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Technical Infrastructure View" id="id-c2c2851ae9824049984aeadca2d0264f">
+      <child xsi:type="archimate:Note" id="id-2bbe7bef4d3c4d48839893a71cd60ff7" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="106" y="58" width="423" height="51"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-c852e49a355f43cc9deedfd3201f2742" model="id-90e550fc5225423abddd4c843223da9b">
+        <bounds x="510" y="150" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Enterprise Architecture View" id="id-90e550fc5225423abddd4c843223da9b">
+      <child xsi:type="archimate:Note" id="id-57b6e739f86248b888f9f954bae64c9a" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1">
+        <bounds x="108" y="12" width="423" height="37"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-a74f39ac6ba4492e8054f6a42262444e" model="id-c845d770da014d77849e833cd3976d2b">
+        <bounds x="228" y="348" width="154" height="169"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-e27b20ef94344b759277cb11a32cdabf" model="id-e6c6429078fe471d9b26c265a7f6c979">
+        <bounds x="396" y="348" width="154" height="169"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-132c16e088dd49c0a2547401e73e72f2" model="id-6e37dfea8c0545c1a22b4942d04baaef">
+        <bounds x="228" y="204" width="154" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-566e3c4de1724962b7ec54aeed124612" model="id-bc496b9cab7e4e3aa98295f35bd4caa2">
+        <bounds x="228" y="276" width="154" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-68991b793e4f49fb8a2da335dcf278c0" model="id-cf729059904f4355b5be22e940e3eea0">
+        <bounds x="84" y="132" width="469" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-741b4c07fcc74b4facf63efb78aba9f6" model="id-fa35f2efd9794d55a8b109d4152ed911">
+        <bounds x="-48" y="72" width="733" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-c4abd74f390e4ae08b133284bd476b2e" model="id-2a08ef4c018b47908ce5e0acb5baaae6">
+        <bounds x="84" y="204" width="120" height="313"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-2a2e6311aa17404a913f2bafc85fc46f" model="id-a9d21701cf3f4945a7bf837b6adf7375">
+        <bounds x="-48" y="132" width="120" height="476"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-2f0c52a9a1544c848706e50c34a15ab8" model="id-b9540fcb19a14d9dab5943a9ce40d61d">
+        <bounds x="396" y="204" width="154" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-14bb4acf1f2b4cd3892c8b7e50cfc075" model="id-3368a201b02a48d48a22658d8a388c0c">
+        <bounds x="396" y="276" width="154" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-71f14157a8a94a75b83bab4cba99ce54" model="id-e97d9b84ca454f89a67cfb11724c82a6">
+        <bounds x="564" y="132" width="120" height="476"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="id-65f2adbdd4344e4fa625da483cc29f48" model="id-c2c2851ae9824049984aeadca2d0264f">
+        <bounds x="84" y="540" width="466" height="68"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
