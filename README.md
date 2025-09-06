@@ -6,6 +6,7 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
   - [Structure of the User Guide Content](#structure-of-the-user-guide-content)
   - [Direct Links for Key Archi Resources](#direct-links-for-key-archi-resources)
   - [Video Lists for Demostration the User Guide](#video-lists-for-demostration-the-user-guide)
+  - [Repositories](#repositories)
   - [Understand Archi Model's E-R](#understand-archi-models-e-r)
 
 ## Structure of the User Guide Content
@@ -22,6 +23,12 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
 ## Video Lists for Demostration the User Guide
 
 - [Archi Modeling Tutorial base on User Guide 5.6.0 @ YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXrv1A4AV2wy1RDv-Y5MRip)
+- [抖音 DouYin: Archi User Guide](https://www.douyin.com/collection/7546620525087295530)
+
+## Repositories
+
+- [GitHub (this one)](https://github.com/yasenstar/Archi_Tutorial), here is the [GitHub Page](https://yasenstar.github.io/Archi_Tutorial/)
+- Mirrored to [Gitee Repo here](https://gitee.com/yasenstar/Archi_Tutorial)
 
 ## Understand Archi Model's E-R
 
