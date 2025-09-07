@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756715361271" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff">
+<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756715361271" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.9090909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -228,10 +228,7 @@
 <node TEXT="05.11.08 Find and Replace" POSITION="bottom_or_right" ID="ID_961616661" CREATED="1756702178742" MODIFIED="1756712063573"/>
 </node>
 </node>
-<node TEXT="07 Viewpoints" POSITION="bottom_or_right" ID="ID_1410555996" CREATED="1756648861544" MODIFIED="1756648865161">
-<node TEXT="07.01 Setting the Viewpoint" ID="ID_894692627" CREATED="1756969659967" MODIFIED="1756969670547"/>
-</node>
-<node TEXT="08 The Properties Windows" FOLDED="true" POSITION="bottom_or_right" ID="ID_1163929574" CREATED="1756648865488" MODIFIED="1756648873531">
+<node TEXT="08 The Properties Windows" POSITION="bottom_or_right" ID="ID_1163929574" CREATED="1756648865488" MODIFIED="1756648873531">
 <node TEXT="08.01 Model Properties" ID="ID_1778821288" CREATED="1756971429249" MODIFIED="1756971436870"/>
 <node TEXT="08.02 Element Properties" ID="ID_125655182" CREATED="1756971437042" MODIFIED="1756971442485"/>
 <node TEXT="08.03 Element Appearance Properties" FOLDED="true" ID="ID_1761785425" CREATED="1756971442658" MODIFIED="1756971452932">
@@ -387,6 +384,9 @@
 <node TEXT="06.37 Alignment Tools, Guides and the Grid" POSITION="bottom_or_right" ID="ID_1284350165" CREATED="1756715015679" MODIFIED="1756954810977"/>
 <node TEXT="06.38 Showing a View in Full Screen Mode" POSITION="bottom_or_right" ID="ID_1861220535" CREATED="1756715030767" MODIFIED="1756954814160"/>
 <node TEXT="06.39 Export View As Image" POSITION="bottom_or_right" ID="ID_1681076600" CREATED="1756715048839" MODIFIED="1756954818144"/>
+</node>
+<node TEXT="07 Viewpoints" FOLDED="true" POSITION="top_or_left" ID="ID_1410555996" CREATED="1756648861544" MODIFIED="1757228152241" VGAP_QUANTITY="3 pt">
+<node TEXT="07.01 Setting the Viewpoint" ID="ID_894692627" CREATED="1756969659967" MODIFIED="1757228152240"/>
 </node>
 </node>
 </map>
