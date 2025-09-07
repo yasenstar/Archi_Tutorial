@@ -76,4 +76,8 @@
       </child>
     </element>
   </folder>
+  <property key="Author" value="Xiaoqi Zhao"/>
+  <property key="Creation Date" value="9/7/2035"/>
+  <purpose>Model to demo Junction feature&#xD;
+Visit: https://github.com/yasenstar/Archi_Tutorial?tab=readme-ov-file</purpose>
 </archimate:model>

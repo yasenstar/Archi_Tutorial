@@ -86,114 +86,6 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook URI="img/archi-logo.jpg" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="06 Views in Archi" POSITION="bottom_or_right" ID="ID_304410743" CREATED="1756648848033" MODIFIED="1756648856635">
-<node TEXT="06.01 Opening a View" POSITION="bottom_or_right" ID="ID_1115684546" CREATED="1756702445572" MODIFIED="1756702906898"/>
-<node TEXT="06.02 Creating a New View" POSITION="bottom_or_right" ID="ID_520385930" CREATED="1756702453604" MODIFIED="1756702906899"/>
-<node TEXT="06.03 Working with Views" POSITION="bottom_or_right" ID="ID_635062934" CREATED="1756702462669" MODIFIED="1756869116495">
-<arrowlink DESTINATION="ID_705189630"/>
-</node>
-<node TEXT="06.04 Navigating a View" FOLDED="true" POSITION="bottom_or_right" ID="ID_1717402324" CREATED="1756702468708" MODIFIED="1756702906899">
-<node TEXT="06.04.01 Panning" ID="ID_133332451" CREATED="1756713889360" MODIFIED="1756869748205"/>
-<node TEXT="06.04.02 Using the Keyboard Instead of the Mouse in a View" ID="ID_288657702" CREATED="1756713900430" MODIFIED="1756713912473"/>
-<node TEXT="06.04.03 Automatic Scrolling in a View" ID="ID_748579258" CREATED="1756713912622" MODIFIED="1756713921520"/>
-<node TEXT="06.04.04 Zooming a View" ID="ID_61197384" CREATED="1756713921678" MODIFIED="1756869644954">
-<arrowlink DESTINATION="ID_1219746834"/>
-</node>
-<node TEXT="06.04.05 Find and Replace" ID="ID_147376190" CREATED="1756713932077" MODIFIED="1756869777309"/>
-</node>
-<node TEXT="06.05 The Palette" POSITION="bottom_or_right" ID="ID_557377858" CREATED="1756702474588" MODIFIED="1756702906899"/>
-<node TEXT="06.06 Specialized Concepts in the Palette" POSITION="bottom_or_right" ID="ID_421554527" CREATED="1756702480428" MODIFIED="1756702906899"/>
-<node TEXT="06.07 The Detached Palette" POSITION="bottom_or_right" ID="ID_1418473126" CREATED="1756702490908" MODIFIED="1756702906899"/>
-<node TEXT="06.08 Palette Selection Tools" POSITION="bottom_or_right" ID="ID_449386268" CREATED="1756702498060" MODIFIED="1756880191968">
-<arrowlink DESTINATION="ID_1284350165"/>
-</node>
-<node TEXT="06.09 Palette Creation Tools" FOLDED="true" POSITION="bottom_or_right" ID="ID_600300539" CREATED="1756713998317" MODIFIED="1756871574832">
-<arrowlink DESTINATION="ID_449386268"/>
-<node TEXT="06.09.01 Relations" ID="ID_203080303" CREATED="1756714022639" MODIFIED="1756714034360"/>
-<node TEXT="06.09.02 Notes and Groups" ID="ID_1543568030" CREATED="1756714071852" MODIFIED="1756714079664"/>
-<node TEXT="06.09.03 ArchiMate Elements" ID="ID_1770993573" CREATED="1756714121285" MODIFIED="1756714127152"/>
-</node>
-<node TEXT="06.10 The Format Painter" POSITION="bottom_or_right" ID="ID_95849220" CREATED="1756702509236" MODIFIED="1756714144399"/>
-<node TEXT="06.11 Adding New Elements to the View from the Palette" FOLDED="true" POSITION="bottom_or_right" ID="ID_280660535" CREATED="1756702517844" MODIFIED="1756714149348">
-<node TEXT="06.11.01 Adding Elements to the View Automatically Adds them to the Model Tree" ID="ID_1877376957" CREATED="1756714140548" MODIFIED="1756912112224"/>
-</node>
-<node TEXT="06.12 Editing the View&apos;s Elements&apos; Properties" POSITION="bottom_or_right" ID="ID_1498023945" CREATED="1756714198531" MODIFIED="1756886779537">
-<arrowlink DESTINATION="ID_1163929574"/>
-</node>
-<node TEXT="06.13 Adding New Relationships (Connections) to the View from the Palette" POSITION="bottom_or_right" ID="ID_573456292" CREATED="1756714212308" MODIFIED="1756947986546"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      2025/09/04: The screenshot in current (2025/09/04) version User Guide is out of date, see this post: https://forum.archimatetool.com/index.php?topic=1666.msg8454;topicseen#msg8454, Phil will update that in next version
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="06.14 Information about Connections" POSITION="bottom_or_right" ID="ID_268758436" CREATED="1756714233507" MODIFIED="1756714239950"/>
-<node TEXT="06.15 Adding Circular Relationships (Connections)" POSITION="bottom_or_right" ID="ID_347618235" CREATED="1756714271251" MODIFIED="1756714296279"/>
-<node TEXT="06.16 Adding New Relationships and Elements to the View using the Magic Connector" POSITION="bottom_or_right" ID="ID_1675969701" CREATED="1756714303787" MODIFIED="1756714324526"/>
-<node TEXT="06.17 Adding Elements and Relations from the Model Tree to a View" POSITION="bottom_or_right" ID="ID_567960873" CREATED="1756714338458" MODIFIED="1756714365815"/>
-<node TEXT="06.18 Adding a Group" POSITION="bottom_or_right" ID="ID_1106565523" CREATED="1756714360259" MODIFIED="1756714371860"/>
-<node TEXT="06.19 Adding a Note" POSITION="bottom_or_right" ID="ID_531505668" CREATED="1756714378483" MODIFIED="1756714384791"/>
-<node TEXT="06.20 Adding a Note Connection" POSITION="bottom_or_right" ID="ID_162365536" CREATED="1756714388627" MODIFIED="1756714396272"/>
-<node TEXT="06.21 Adding a Junction" POSITION="bottom_or_right" ID="ID_1135563606" CREATED="1756714398883" MODIFIED="1756714405500"/>
-<node TEXT="06.22 Adding a Reference to Another View" POSITION="bottom_or_right" ID="ID_1323878479" CREATED="1756714409954" MODIFIED="1756714422245"/>
-<node TEXT="06.23 Connection Bend-points" POSITION="bottom_or_right" ID="ID_496488442" CREATED="1756714424850" MODIFIED="1756714433597"/>
-<node TEXT="06.24 Setting the Properties of a Connection" POSITION="bottom_or_right" ID="ID_1360984765" CREATED="1756714674761" MODIFIED="1757071520329">
-<arrowlink DESTINATION="ID_1419238473"/>
-</node>
-<node TEXT="06.25 Setting the Connection Router Type for a View" FOLDED="true" POSITION="bottom_or_right" ID="ID_1209334138" CREATED="1756714716482" MODIFIED="1756714731979">
-<node TEXT="06.25.01 Manual" ID="ID_3383522" CREATED="1756714741328" MODIFIED="1756714746701"/>
-<node TEXT="06.25.02 Manhattan" ID="ID_440310788" CREATED="1756714746881" MODIFIED="1756948707958"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Manhattan PBC Routing Strategy: https://www.pcbbuy.com/news/What-is-Manhattan-Routing-in-PCB-Manufacturing-Process.html#:~:text=Manhattan%20routing%20is%20a%20PCB%20routing%20strategy.%20You,vertical%20traces%20are%20used%20on%20the%20horizontal%20layer.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node TEXT="06.26 Container Elements and Nested Element Relationships" POSITION="bottom_or_right" ID="ID_1733995288" CREATED="1756714757177" MODIFIED="1756714774956"/>
-<node TEXT="06.27 Creating, Showing and Hiding Relationships between Nested Parent/Child Elements" FOLDED="true" POSITION="bottom_or_right" ID="ID_503857097" CREATED="1756714790048" MODIFIED="1756714809933">
-<node TEXT="06.27.01 Example - Nested sub-processes in a Composite Relationship" ID="ID_71981188" CREATED="1756714815497" MODIFIED="1756714833237"/>
-<node TEXT="06.27.02 Adding new elements to a parent element" ID="ID_1143971157" CREATED="1756714837336" MODIFIED="1756714853524"/>
-<node TEXT="06.27.03 Moving existing elements to a parent element" ID="ID_1234047473" CREATED="1756714856153" MODIFIED="1756714872411"/>
-</node>
-<node TEXT="06.28 Setting the Order of Overlapping Elements" POSITION="bottom_or_right" ID="ID_1548444513" CREATED="1756714878607" MODIFIED="1756714891009"/>
-<node TEXT="06.29 Selecting Elements in a View" POSITION="bottom_or_right" ID="ID_1921805208" CREATED="1756714893744" MODIFIED="1756954254095">
-<arrowlink DESTINATION="ID_449386268"/>
-</node>
-<node TEXT="06.30 Copying and Pasting Elements in a View" POSITION="bottom_or_right" ID="ID_926603135" CREATED="1756714909927" MODIFIED="1756714922028"/>
-<node TEXT="06.31 Copy As Image to Clipboard" POSITION="bottom_or_right" ID="ID_817747925" CREATED="1756714928631" MODIFIED="1756954788961"/>
-<node TEXT="06.32 Deleting Elements and Relationships (Connections) in a View" POSITION="bottom_or_right" ID="ID_860571248" CREATED="1756714940832" MODIFIED="1756954791954"/>
-<node TEXT="06.33 Delete from View (keep children)" POSITION="bottom_or_right" ID="ID_586980795" CREATED="1756714965752" MODIFIED="1756967983369"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      This feature was added in Archi v5.5.0
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="06.34 Delete from Model" POSITION="bottom_or_right" ID="ID_498175962" CREATED="1756714984728" MODIFIED="1756954798558"/>
-<node TEXT="06.35 Changing an Object&apos;s ArchiMate Concept Type in a View" POSITION="bottom_or_right" ID="ID_1561988495" CREATED="1756714993071" MODIFIED="1756968463998">
-<arrowlink DESTINATION="ID_212064951"/>
-</node>
-<node TEXT="06.36 Select in Model Tree" POSITION="bottom_or_right" ID="ID_1185384440" CREATED="1756715008207" MODIFIED="1756954806640"/>
-<node TEXT="06.37 Alignment Tools, Guides and the Grid" POSITION="bottom_or_right" ID="ID_1284350165" CREATED="1756715015679" MODIFIED="1756954810977"/>
-<node TEXT="06.38 Showing a View in Full Screen Mode" POSITION="bottom_or_right" ID="ID_1861220535" CREATED="1756715030767" MODIFIED="1756954814160"/>
-<node TEXT="06.39 Export View As Image" POSITION="bottom_or_right" ID="ID_1681076600" CREATED="1756715048839" MODIFIED="1756954818144"/>
-</node>
 <node TEXT="21 Importing Another Model into the Current Model" FOLDED="true" POSITION="top_or_left" ID="ID_1220619441" CREATED="1756648971839" MODIFIED="1756648980586">
 <node TEXT="21.01 Importing another Archi Model" ID="ID_300518152" CREATED="1756980544809" MODIFIED="1756980557652"/>
 </node>
@@ -336,10 +228,10 @@
 <node TEXT="05.11.08 Find and Replace" POSITION="bottom_or_right" ID="ID_961616661" CREATED="1756702178742" MODIFIED="1756712063573"/>
 </node>
 </node>
-<node TEXT="07 Viewpoints" FOLDED="true" POSITION="top_or_left" ID="ID_1410555996" CREATED="1756648861544" MODIFIED="1756648865161">
+<node TEXT="07 Viewpoints" POSITION="bottom_or_right" ID="ID_1410555996" CREATED="1756648861544" MODIFIED="1756648865161">
 <node TEXT="07.01 Setting the Viewpoint" ID="ID_894692627" CREATED="1756969659967" MODIFIED="1756969670547"/>
 </node>
-<node TEXT="08 The Properties Windows" FOLDED="true" POSITION="top_or_left" ID="ID_1163929574" CREATED="1756648865488" MODIFIED="1756648873531">
+<node TEXT="08 The Properties Windows" FOLDED="true" POSITION="bottom_or_right" ID="ID_1163929574" CREATED="1756648865488" MODIFIED="1756648873531">
 <node TEXT="08.01 Model Properties" ID="ID_1778821288" CREATED="1756971429249" MODIFIED="1756971436870"/>
 <node TEXT="08.02 Element Properties" ID="ID_125655182" CREATED="1756971437042" MODIFIED="1756971442485"/>
 <node TEXT="08.03 Element Appearance Properties" FOLDED="true" ID="ID_1761785425" CREATED="1756971442658" MODIFIED="1756971452932">
@@ -358,8 +250,8 @@
 <node TEXT="08.11 Group Properties" ID="ID_1901105857" CREATED="1756971515122" MODIFIED="1756971535493"/>
 <node TEXT="08.12 User Properties" ID="ID_1400335761" CREATED="1756971535650" MODIFIED="1756971544725"/>
 </node>
-<node TEXT="09 The Navigator Windows" POSITION="top_or_left" ID="ID_1481451788" CREATED="1756648873704" MODIFIED="1756648880963"/>
-<node TEXT="10 The Visualiser Windows" FOLDED="true" POSITION="top_or_left" ID="ID_202584990" CREATED="1756648881135" MODIFIED="1756648888600">
+<node TEXT="09 The Navigator Windows" POSITION="bottom_or_right" ID="ID_1481451788" CREATED="1756648873704" MODIFIED="1756648880963"/>
+<node TEXT="10 The Visualiser Windows" FOLDED="true" POSITION="bottom_or_right" ID="ID_202584990" CREATED="1756648881135" MODIFIED="1756648888600">
 <node TEXT="10.01 Depth" ID="ID_1552457228" CREATED="1756973402991" MODIFIED="1756973407585"/>
 <node TEXT="10.02 Viewpoint Filter" ID="ID_1605913806" CREATED="1756973407773" MODIFIED="1756973412785"/>
 <node TEXT="10.03 Element Filter" ID="ID_673711182" CREATED="1756973412941" MODIFIED="1756973418390"/>
@@ -367,26 +259,134 @@
 <node TEXT="10.05 Direction" ID="ID_1985060144" CREATED="1756980426905" MODIFIED="1756980431059"/>
 <node TEXT="10.06 Options" ID="ID_1005316581" CREATED="1756980431232" MODIFIED="1756980436086"/>
 </node>
-<node TEXT="11 The Hints Windows" POSITION="top_or_left" ID="ID_1405974383" CREATED="1756648888897" MODIFIED="1756648894546"/>
-<node TEXT="12 The Outline Windows" POSITION="top_or_left" ID="ID_1219746834" CREATED="1756648894719" MODIFIED="1756648901891"/>
-<node TEXT="13 Tools" POSITION="top_or_left" ID="ID_551744421" CREATED="1756648902111" MODIFIED="1756648906320"/>
-<node TEXT="14 Generate a View from Elements" POSITION="top_or_left" ID="ID_1428331489" CREATED="1756648906479" MODIFIED="1756648915975"/>
-<node TEXT="15 Properties Manager" POSITION="top_or_left" ID="ID_856519067" CREATED="1756648916375" MODIFIED="1756648922969"/>
-<node TEXT="16 Specializations Manager" FOLDED="true" POSITION="top_or_left" ID="ID_1558642240" CREATED="1756648923141" MODIFIED="1756648930489">
+<node TEXT="11 The Hints Windows" POSITION="bottom_or_right" ID="ID_1405974383" CREATED="1756648888897" MODIFIED="1756648894546"/>
+<node TEXT="12 The Outline Windows" POSITION="bottom_or_right" ID="ID_1219746834" CREATED="1756648894719" MODIFIED="1756648901891"/>
+<node TEXT="13 Tools" POSITION="bottom_or_right" ID="ID_551744421" CREATED="1756648902111" MODIFIED="1756648906320"/>
+<node TEXT="14 Generate a View from Elements" POSITION="bottom_or_right" ID="ID_1428331489" CREATED="1756648906479" MODIFIED="1756648915975"/>
+<node TEXT="15 Properties Manager" POSITION="bottom_or_right" ID="ID_856519067" CREATED="1756648916375" MODIFIED="1756648922969"/>
+<node TEXT="16 Specializations Manager" FOLDED="true" POSITION="bottom_or_right" ID="ID_1558642240" CREATED="1756648923141" MODIFIED="1756648930489">
 <node TEXT="16.01 Background" ID="ID_804072843" CREATED="1756980442881" MODIFIED="1756980447917"/>
 <node TEXT="16.02 Using the Specializations Manager" ID="ID_1112466305" CREATED="1756980448074" MODIFIED="1756980457661"/>
 </node>
-<node TEXT="17 The Validator" POSITION="top_or_left" ID="ID_147061043" CREATED="1756648930655" MODIFIED="1756648936025"/>
-<node TEXT="18 Preview HTML Report" POSITION="top_or_left" ID="ID_1500481882" CREATED="1756648941200" MODIFIED="1756648947925"/>
-<node TEXT="19 Opening, Saving and Printing" FOLDED="true" POSITION="top_or_left" ID="ID_34498363" CREATED="1756648948079" MODIFIED="1756648953977">
+<node TEXT="17 The Validator" POSITION="bottom_or_right" ID="ID_147061043" CREATED="1756648930655" MODIFIED="1756648936025"/>
+<node TEXT="18 Preview HTML Report" POSITION="bottom_or_right" ID="ID_1500481882" CREATED="1756648941200" MODIFIED="1756648947925"/>
+<node TEXT="19 Opening, Saving and Printing" FOLDED="true" POSITION="bottom_or_right" ID="ID_34498363" CREATED="1756648948079" MODIFIED="1756648953977">
 <node TEXT="19.01 Opening an Existing Model" ID="ID_1328746044" CREATED="1756980477609" MODIFIED="1756980485275"/>
 <node TEXT="19.02 Saving a Model" ID="ID_1433784285" CREATED="1756980485400" MODIFIED="1756980490452"/>
 <node TEXT="19.03 Closing a Model in the Model Tree" ID="ID_1425109568" CREATED="1756980490601" MODIFIED="1756980500308"/>
 <node TEXT="19.04 Printing A View (Diagram)" ID="ID_1995628946" CREATED="1756980500633" MODIFIED="1756980508204"/>
 </node>
-<node TEXT="20 Exporting and Importing the Model in CSV Format" FOLDED="true" POSITION="top_or_left" ID="ID_1406030821" CREATED="1756648954144" MODIFIED="1756648971674">
+<node TEXT="20 Exporting and Importing the Model in CSV Format" FOLDED="true" POSITION="bottom_or_right" ID="ID_1406030821" CREATED="1756648954144" MODIFIED="1756648971674">
 <node TEXT="20.01 Export Model To CSV" ID="ID_1180486868" CREATED="1756980515572" MODIFIED="1756980525485"/>
 <node TEXT="20.02 Importing CSV Data into a Model" ID="ID_309888176" CREATED="1756980525673" MODIFIED="1756980536323"/>
+</node>
+<node TEXT="06 Views in Archi" FOLDED="true" POSITION="top_or_left" ID="ID_304410743" CREATED="1756648848033" MODIFIED="1756648856635">
+<node TEXT="06.01 Opening a View" POSITION="bottom_or_right" ID="ID_1115684546" CREATED="1756702445572" MODIFIED="1756702906898"/>
+<node TEXT="06.02 Creating a New View" POSITION="bottom_or_right" ID="ID_520385930" CREATED="1756702453604" MODIFIED="1756702906899"/>
+<node TEXT="06.03 Working with Views" POSITION="bottom_or_right" ID="ID_635062934" CREATED="1756702462669" MODIFIED="1756869116495">
+<arrowlink DESTINATION="ID_705189630"/>
+</node>
+<node TEXT="06.04 Navigating a View" FOLDED="true" POSITION="bottom_or_right" ID="ID_1717402324" CREATED="1756702468708" MODIFIED="1756702906899">
+<node TEXT="06.04.01 Panning" ID="ID_133332451" CREATED="1756713889360" MODIFIED="1756869748205"/>
+<node TEXT="06.04.02 Using the Keyboard Instead of the Mouse in a View" ID="ID_288657702" CREATED="1756713900430" MODIFIED="1756713912473"/>
+<node TEXT="06.04.03 Automatic Scrolling in a View" ID="ID_748579258" CREATED="1756713912622" MODIFIED="1756713921520"/>
+<node TEXT="06.04.04 Zooming a View" ID="ID_61197384" CREATED="1756713921678" MODIFIED="1756869644954">
+<arrowlink DESTINATION="ID_1219746834"/>
+</node>
+<node TEXT="06.04.05 Find and Replace" ID="ID_147376190" CREATED="1756713932077" MODIFIED="1756869777309"/>
+</node>
+<node TEXT="06.05 The Palette" POSITION="bottom_or_right" ID="ID_557377858" CREATED="1756702474588" MODIFIED="1756702906899"/>
+<node TEXT="06.06 Specialized Concepts in the Palette" POSITION="bottom_or_right" ID="ID_421554527" CREATED="1756702480428" MODIFIED="1756702906899"/>
+<node TEXT="06.07 The Detached Palette" POSITION="bottom_or_right" ID="ID_1418473126" CREATED="1756702490908" MODIFIED="1756702906899"/>
+<node TEXT="06.08 Palette Selection Tools" POSITION="bottom_or_right" ID="ID_449386268" CREATED="1756702498060" MODIFIED="1756880191968">
+<arrowlink DESTINATION="ID_1284350165"/>
+</node>
+<node TEXT="06.09 Palette Creation Tools" FOLDED="true" POSITION="bottom_or_right" ID="ID_600300539" CREATED="1756713998317" MODIFIED="1756871574832">
+<arrowlink DESTINATION="ID_449386268"/>
+<node TEXT="06.09.01 Relations" ID="ID_203080303" CREATED="1756714022639" MODIFIED="1756714034360"/>
+<node TEXT="06.09.02 Notes and Groups" ID="ID_1543568030" CREATED="1756714071852" MODIFIED="1756714079664"/>
+<node TEXT="06.09.03 ArchiMate Elements" ID="ID_1770993573" CREATED="1756714121285" MODIFIED="1756714127152"/>
+</node>
+<node TEXT="06.10 The Format Painter" POSITION="bottom_or_right" ID="ID_95849220" CREATED="1756702509236" MODIFIED="1756714144399"/>
+<node TEXT="06.11 Adding New Elements to the View from the Palette" FOLDED="true" POSITION="bottom_or_right" ID="ID_280660535" CREATED="1756702517844" MODIFIED="1756714149348">
+<node TEXT="06.11.01 Adding Elements to the View Automatically Adds them to the Model Tree" ID="ID_1877376957" CREATED="1756714140548" MODIFIED="1756912112224"/>
+</node>
+<node TEXT="06.12 Editing the View&apos;s Elements&apos; Properties" POSITION="bottom_or_right" ID="ID_1498023945" CREATED="1756714198531" MODIFIED="1756886779537">
+<arrowlink DESTINATION="ID_1163929574"/>
+</node>
+<node TEXT="06.13 Adding New Relationships (Connections) to the View from the Palette" POSITION="bottom_or_right" ID="ID_573456292" CREATED="1756714212308" MODIFIED="1756947986546"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2025/09/04: The screenshot in current (2025/09/04) version User Guide is out of date, see this post: https://forum.archimatetool.com/index.php?topic=1666.msg8454;topicseen#msg8454, Phil will update that in next version
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="06.14 Information about Connections" POSITION="bottom_or_right" ID="ID_268758436" CREATED="1756714233507" MODIFIED="1756714239950"/>
+<node TEXT="06.15 Adding Circular Relationships (Connections)" POSITION="bottom_or_right" ID="ID_347618235" CREATED="1756714271251" MODIFIED="1756714296279"/>
+<node TEXT="06.16 Adding New Relationships and Elements to the View using the Magic Connector" POSITION="bottom_or_right" ID="ID_1675969701" CREATED="1756714303787" MODIFIED="1756714324526"/>
+<node TEXT="06.17 Adding Elements and Relations from the Model Tree to a View" POSITION="bottom_or_right" ID="ID_567960873" CREATED="1756714338458" MODIFIED="1756714365815"/>
+<node TEXT="06.18 Adding a Group" POSITION="bottom_or_right" ID="ID_1106565523" CREATED="1756714360259" MODIFIED="1756714371860"/>
+<node TEXT="06.19 Adding a Note" POSITION="bottom_or_right" ID="ID_531505668" CREATED="1756714378483" MODIFIED="1756714384791"/>
+<node TEXT="06.20 Adding a Note Connection" POSITION="bottom_or_right" ID="ID_162365536" CREATED="1756714388627" MODIFIED="1756714396272"/>
+<node TEXT="06.21 Adding a Junction" POSITION="bottom_or_right" ID="ID_1135563606" CREATED="1756714398883" MODIFIED="1756714405500"/>
+<node TEXT="06.22 Adding a Reference to Another View" POSITION="bottom_or_right" ID="ID_1323878479" CREATED="1756714409954" MODIFIED="1756714422245"/>
+<node TEXT="06.23 Connection Bend-points" POSITION="bottom_or_right" ID="ID_496488442" CREATED="1756714424850" MODIFIED="1756714433597"/>
+<node TEXT="06.24 Setting the Properties of a Connection" POSITION="bottom_or_right" ID="ID_1360984765" CREATED="1756714674761" MODIFIED="1757071520329">
+<arrowlink DESTINATION="ID_1419238473"/>
+</node>
+<node TEXT="06.25 Setting the Connection Router Type for a View" FOLDED="true" POSITION="bottom_or_right" ID="ID_1209334138" CREATED="1756714716482" MODIFIED="1756714731979">
+<node TEXT="06.25.01 Manual" ID="ID_3383522" CREATED="1756714741328" MODIFIED="1756714746701"/>
+<node TEXT="06.25.02 Manhattan" ID="ID_440310788" CREATED="1756714746881" MODIFIED="1756948707958"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Manhattan PBC Routing Strategy: https://www.pcbbuy.com/news/What-is-Manhattan-Routing-in-PCB-Manufacturing-Process.html#:~:text=Manhattan%20routing%20is%20a%20PCB%20routing%20strategy.%20You,vertical%20traces%20are%20used%20on%20the%20horizontal%20layer.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="06.26 Container Elements and Nested Element Relationships" POSITION="bottom_or_right" ID="ID_1733995288" CREATED="1756714757177" MODIFIED="1756714774956"/>
+<node TEXT="06.27 Creating, Showing and Hiding Relationships between Nested Parent/Child Elements" FOLDED="true" POSITION="bottom_or_right" ID="ID_503857097" CREATED="1756714790048" MODIFIED="1756714809933">
+<node TEXT="06.27.01 Example - Nested sub-processes in a Composite Relationship" ID="ID_71981188" CREATED="1756714815497" MODIFIED="1756714833237"/>
+<node TEXT="06.27.02 Adding new elements to a parent element" ID="ID_1143971157" CREATED="1756714837336" MODIFIED="1756714853524"/>
+<node TEXT="06.27.03 Moving existing elements to a parent element" ID="ID_1234047473" CREATED="1756714856153" MODIFIED="1756714872411"/>
+</node>
+<node TEXT="06.28 Setting the Order of Overlapping Elements" POSITION="bottom_or_right" ID="ID_1548444513" CREATED="1756714878607" MODIFIED="1756714891009"/>
+<node TEXT="06.29 Selecting Elements in a View" POSITION="bottom_or_right" ID="ID_1921805208" CREATED="1756714893744" MODIFIED="1756954254095">
+<arrowlink DESTINATION="ID_449386268"/>
+</node>
+<node TEXT="06.30 Copying and Pasting Elements in a View" POSITION="bottom_or_right" ID="ID_926603135" CREATED="1756714909927" MODIFIED="1756714922028"/>
+<node TEXT="06.31 Copy As Image to Clipboard" POSITION="bottom_or_right" ID="ID_817747925" CREATED="1756714928631" MODIFIED="1756954788961"/>
+<node TEXT="06.32 Deleting Elements and Relationships (Connections) in a View" POSITION="bottom_or_right" ID="ID_860571248" CREATED="1756714940832" MODIFIED="1756954791954"/>
+<node TEXT="06.33 Delete from View (keep children)" POSITION="bottom_or_right" ID="ID_586980795" CREATED="1756714965752" MODIFIED="1756967983369"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This feature was added in Archi v5.5.0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="06.34 Delete from Model" POSITION="bottom_or_right" ID="ID_498175962" CREATED="1756714984728" MODIFIED="1756954798558"/>
+<node TEXT="06.35 Changing an Object&apos;s ArchiMate Concept Type in a View" POSITION="bottom_or_right" ID="ID_1561988495" CREATED="1756714993071" MODIFIED="1756968463998">
+<arrowlink DESTINATION="ID_212064951"/>
+</node>
+<node TEXT="06.36 Select in Model Tree" POSITION="bottom_or_right" ID="ID_1185384440" CREATED="1756715008207" MODIFIED="1756954806640"/>
+<node TEXT="06.37 Alignment Tools, Guides and the Grid" POSITION="bottom_or_right" ID="ID_1284350165" CREATED="1756715015679" MODIFIED="1756954810977"/>
+<node TEXT="06.38 Showing a View in Full Screen Mode" POSITION="bottom_or_right" ID="ID_1861220535" CREATED="1756715030767" MODIFIED="1756954814160"/>
+<node TEXT="06.39 Export View As Image" POSITION="bottom_or_right" ID="ID_1681076600" CREATED="1756715048839" MODIFIED="1756954818144"/>
 </node>
 </node>
 </map>
