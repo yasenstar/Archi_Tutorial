@@ -24,6 +24,7 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
 
 - [Archi Modeling Tutorial base on User Guide 5.6.0 @ YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXrv1A4AV2wy1RDv-Y5MRip)
 - [抖音 DouYin: Archi User Guide](https://www.douyin.com/collection/7546620525087295530)
+- [B站 BiliBili.com - Archi User Guide 用户指南](https://space.bilibili.com/158390142/lists/6324904?type=season)
 
 ## Repositories on Learning Archi User Guide
 
