@@ -14,7 +14,9 @@
   </folder>
   <folder name="Application" id="id-39a83dc0f12c46ec82b128e5c4bacc9e" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="CRM App" id="id-75bb6cf9377f4a2e951c73602ed79861"/>
-    <element xsi:type="archimate:ApplicationComponent" name="ERP App" id="id-5e0d7e9eeadc4fe4a07f8d4a0fc3108f"/>
+    <element xsi:type="archimate:ApplicationComponent" name="ERP App" id="id-5e0d7e9eeadc4fe4a07f8d4a0fc3108f">
+      <property key="_hide_from_export_" value="true"/>
+    </element>
     <element xsi:type="archimate:ApplicationComponent" name="Customer Portal" id="id-1252897b87944d8282d8faa3cd985acb"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-2a4c9c7c89094981afe97c7cb00e5974" type="technology"/>
@@ -80,4 +82,5 @@
       </child>
     </element>
   </folder>
+  <purpose>This is also used to show in HTML Report</purpose>
 </archimate:model>
