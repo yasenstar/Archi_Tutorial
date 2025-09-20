@@ -1,10 +1,10 @@
-# CH18 Reporting
+# CH18 Archi Reporting
 
-- [CH18 Reporting](#ch18-reporting)
-  - [18.1 HTML Report](#181-html-report)
-  - [18.2 Jasper Report](#182-jasper-report)
+- [CH18 Archi Reporting](#ch18-archi-reporting)
+  - [18.1 Archi HTML Report](#181-archi-html-report)
+  - [18.2 Archi Jasper Report](#182-archi-jasper-report)
 
-## 18.1 HTML Report
+## 18.1 Archi HTML Report
 
 Reference Material:
 
@@ -25,7 +25,7 @@ Reference Reading:
 
 - [Query Archi HTML Report](https://github.com/yasenstar/EA/blob/master/architool/Archi-HTML/Query-Archi-HTML-Report.md)
 
-## 18.2 Jasper Report
+## 18.2 Archi Jasper Report
 
 Resource at Jaspersoft Community:
 
