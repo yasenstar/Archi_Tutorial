@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:canvas="http://www.archimatetool.com/archimate/canvas" name="test" id="id-f3d025dafea44c34b54dabf822a7e1fb" version="5.0.0">
+  <folder name="Strategy" id="id-c23128b937db428c8429fcb22ed337d4" type="strategy"/>
+  <folder name="Business" id="id-7afe7fce27084956ac55837344e61c36" type="business"/>
+  <folder name="Application" id="id-3c6067de0cce4145bec9e94029cc4de2" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-46aa12c9668e4adbb608085a1679fa88" type="technology"/>
+  <folder name="Motivation" id="id-86753eea3787421ea1b0e832adc9b949" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-3b59a96322b04607b97b42f9af65be51" type="implementation_migration"/>
+  <folder name="Other" id="id-b18fa6748c9844bbb0ffb9cc5af12351" type="other"/>
+  <folder name="Relations" id="id-c0f4dbc3635347008e9503dd2305a616" type="relations"/>
+  <folder name="Views" id="id-b4e50c1f49184fc5b7d8fb58b07ddfcb" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-4d184fe155e54ec3bd95396cb235a907"/>
+    <element xsi:type="canvas:CanvasModel" name="Test Canvas" id="id-0eeabf8af6144d969bf26eed89af3f9a">
+      <child xsi:type="canvas:CanvasModelBlock" id="id-5215fdc0c03e4604bef1e0311f9e02a6" textAlignment="1" fillColor="#00ff00" borderColor="#000000" hintTitle="Hint (my hint)">
+        <bounds x="121" y="96" width="200" height="200"/>
+        <hintContent>sample text</hintContent>
+        <content>block</content>
+      </child>
+      <property key="Priority" value="High"/>
+    </element>
+    <element xsi:type="canvas:CanvasModel" name="Test Canvas (copy)" id="id-9023f68fafa249cfb905578276de86b9">
+      <child xsi:type="canvas:CanvasModelBlock" id="id-bd27adc346954132b0d74c23358261c1" textAlignment="1" fillColor="#00ff00" borderColor="#000000" hintTitle="Hint (my hint)">
+        <bounds x="121" y="96" width="200" height="200"/>
+        <hintContent>sample text</hintContent>
+        <content>block</content>
+      </child>
+      <property key="Priority" value="High"/>
+    </element>
+  </folder>
+</archimate:model>
