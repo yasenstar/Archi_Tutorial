@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1756715361271" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.82644624">
+<node TEXT="Archi Tutorial&#xa;(base on User Guide 5.6.0)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1771985530746" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.82644624">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_4172522" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#051552" BACKGROUND_COLOR="#5cd5e8" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.7 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#1164b0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_4172522" STARTINCLINATION="116.25 pt;0 pt;" ENDINCLINATION="116.25 pt;28.125 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_4172522" STARTINCLINATION="116.25 pt;0 pt;" ENDINCLINATION="116.25 pt;28.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#051552" WIDTH="2" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -188,7 +188,7 @@
 <node TEXT="05.11.08 Find and Replace" POSITION="bottom_or_right" ID="ID_961616661" CREATED="1756702178742" MODIFIED="1756712063573"/>
 </node>
 </node>
-<node TEXT="06 Views in Archi" FOLDED="true" POSITION="bottom_or_right" ID="ID_304410743" CREATED="1756648848033" MODIFIED="1756648856635">
+<node TEXT="06 Views in Archi" POSITION="bottom_or_right" ID="ID_304410743" CREATED="1756648848033" MODIFIED="1756648856635">
 <node TEXT="06.01 Opening a View" POSITION="bottom_or_right" ID="ID_1115684546" CREATED="1756702445572" MODIFIED="1756702906898"/>
 <node TEXT="06.02 Creating a New View" POSITION="bottom_or_right" ID="ID_520385930" CREATED="1756702453604" MODIFIED="1756702906899"/>
 <node TEXT="06.03 Working with Views" POSITION="bottom_or_right" ID="ID_635062934" CREATED="1756702462669" MODIFIED="1756869116495">
@@ -319,7 +319,7 @@
 <node TEXT="08.12 User Properties" ID="ID_1400335761" CREATED="1756971535650" MODIFIED="1756971544725"/>
 </node>
 <node TEXT="09 The Navigator Windows" POSITION="bottom_or_right" ID="ID_1481451788" CREATED="1756648873704" MODIFIED="1756648880963"/>
-<node TEXT="10 The Visualiser Windows" POSITION="bottom_or_right" ID="ID_202584990" CREATED="1756648881135" MODIFIED="1756648888600">
+<node TEXT="10 The Visualiser Windows" FOLDED="true" POSITION="bottom_or_right" ID="ID_202584990" CREATED="1756648881135" MODIFIED="1756648888600">
 <node TEXT="10.01 Depth" ID="ID_1552457228" CREATED="1756973402991" MODIFIED="1756973407585"/>
 <node TEXT="10.02 Viewpoint Filter" ID="ID_1605913806" CREATED="1756973407773" MODIFIED="1756973412785"/>
 <node TEXT="10.03 Element Filter" ID="ID_673711182" CREATED="1756973412941" MODIFIED="1756973418390"/>
@@ -343,7 +343,7 @@
 <node TEXT="29.09 Creating a New Canvas from a Template" ID="ID_948200662" CREATED="1756988711420" MODIFIED="1758460618538"/>
 <node TEXT="22.10 Managing your Canvas Templates" ID="ID_149818595" CREATED="1756988722067" MODIFIED="1758433491385"/>
 </node>
-<node TEXT="23 Preferences" POSITION="top_or_left" ID="ID_1703148013" CREATED="1756649078717" MODIFIED="1757745414853">
+<node TEXT="23 Preferences" FOLDED="true" POSITION="top_or_left" ID="ID_1703148013" CREATED="1756649078717" MODIFIED="1757745414853">
 <node TEXT="23.01 Appearance, Colours, and Fonts Preferences" POSITION="bottom_or_right" ID="ID_1537399996" CREATED="1756649085861" MODIFIED="1758433757860">
 <node TEXT="01 Appearance" ID="ID_1233184075" CREATED="1756988733491" MODIFIED="1758433789756"/>
 <node TEXT="02 Colours" ID="ID_387451095" CREATED="1756988739812" MODIFIED="1758433792060"/>
