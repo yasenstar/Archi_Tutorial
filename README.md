@@ -5,6 +5,7 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
 - [Archi Tutorial base on User Guide (updated to 5.8.0)](#archi-tutorial-base-on-user-guide-updated-to-580)
   - [Structure of the User Guide Content](#structure-of-the-user-guide-content)
   - [Direct Links for Key Archi Resources](#direct-links-for-key-archi-resources)
+  - [Packaged Course in Udemy](#packaged-course-in-udemy)
   - [Video Lists for Demostration the User Guide](#video-lists-for-demostration-the-user-guide)
   - [Repositories on Learning Archi User Guide](#repositories-on-learning-archi-user-guide)
   - [Understand Archi Model's E-R](#understand-archi-models-e-r)
@@ -22,6 +23,12 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
   - [User Guide 5.6.0](docs/Archi%20User%20Guide-5.6.0-20250512.pdf)
 - [Archi Tool Forum](https://forum.archimatetool.com)
 - [Archi Project in Github](https://github.com/archimatetool/archi)
+
+## Packaged Course in Udemy
+
+Click below image to enroll the full well packaged course in Udemy, and support me to keep updating the contents:
+
+[![udemy-course](img/Archi_User_Guide_Udemy.png)](https://www.udemy.com/course/archi-tool-user-guide-tutorial/?referralCode=B7FD975B5B8F58109B76)
 
 ## Video Lists for Demostration the User Guide
 
