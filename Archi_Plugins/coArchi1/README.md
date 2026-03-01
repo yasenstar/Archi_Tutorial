@@ -33,6 +33,7 @@ Why coArchi1 tutorial still?
 How's the tutorial structured and where are the resources?
 
 - This repo stores the hands-on README as the central information
+- Practice Archi models are kept in dedicate "[Enterprise Architecture Playground](https://github.com/EA-PlayGround)" in Github for remote model demo
 - Mindmap file (using FreePlane tool) shows the table of contents
 - Check [wiki page](https://github.com/archimatetool/archi-modelrepository-plugin/wiki) to learn the words from Archi project. Below are based on the wiki structure with adding more practical reference.
 - Tutorial videos will be packaged to [Udemy](https://www.udemy.com/user/xiaoqi-zhao/) and also shared in [YouTube](http://www.youtube.com/@yasenzhao) (stay tunes)
