@@ -2,8 +2,9 @@
 
 - [Archi Plugin Tutorial - coArchi1](#archi-plugin-tutorial---coarchi1)
   - [Contents](#contents)
-  - [About coArchi1](#about-coarchi1)
-  - [0. Setup Archi Test Environments](#0-setup-archi-test-environments)
+  - [0. Introduction](#0-introduction)
+    - [0.1 Opening and Introduction](#01-opening-and-introduction)
+    - [0.2 Setup Archi Test Environments](#02-setup-archi-test-environments)
   - [1. Setup and Configuration](#1-setup-and-configuration)
     - [1.1 Setup](#11-setup)
     - [1.2 Configuration](#12-configuration)
@@ -14,15 +15,29 @@
 
 <img src="img/Archi_Plugins_coArchi1.png" alt="coArchi1 TOC" width="600"></img>
 
-## About coArchi1
+## 0. Introduction
 
-Since Archi itself is one standalone client tool for ArchiMate modeling, if you're working in the architect team on the common Archi model, the coArchi is the must adopted collaboration plug-in.
+### 0.1 Opening and Introduction
 
-coArchi1 (v0.9.5 as of 2026/02/28) is provided from the Archi development team and keep evolving, you may find coArchi2 is on the way which bring more feature and better performance.
+Why this tutorial?
 
-Check [wiki page](https://github.com/archimatetool/archi-modelrepository-plugin/wiki) to learn the words from Archi project. Below are based on the wiki structure with adding more practical reference.
+- Since Archi itself is one standalone client tool for ArchiMate modeling, if you're working in the architect team on the common Archi model, the coArchi is the must adopted collaboration plug-in.
+- I (and our architect team) have used coArchi since 2021, keep evolving the way of working to handling our Archi repository (12K+ Elements, 14K+ Properties and 35K+ Relationships)
+- Share our practices to the community to help making Archi better
 
-## 0. Setup Archi Test Environments
+Why coArchi1 tutorial still?
+
+- coArchi1 (v0.9.5 as of 2026/02/28) is provided from the Archi development team and keep evolving, you may find coArchi2 is on the way which bring more feature and better performance.
+- however, since coArchi2 have the big changes and not compatible with coArchi1, you may still keep in coArchi1 for certain reason, thus, know how coArchi1 in detail still valuable as the foundation
+
+How's the tutorial structured and where are the resources?
+
+- This repo stores the hands-on README as the central information
+- Mindmap file (using FreePlane tool) shows the table of contents
+- Check [wiki page](https://github.com/archimatetool/archi-modelrepository-plugin/wiki) to learn the words from Archi project. Below are based on the wiki structure with adding more practical reference.
+- Tutorial videos will be packaged to [Udemy](https://www.udemy.com/user/xiaoqi-zhao/) and also shared in [YouTube](http://www.youtube.com/@yasenzhao) (stay tunes)
+
+### 0.2 Setup Archi Test Environments
 
 To simulate and demo collaboration within one team, using Archi zip package to install two parallel instances, configure the `Archi.ini` to point to its specific path so that their programs are not conflicted and you may open them at the same time.
 
