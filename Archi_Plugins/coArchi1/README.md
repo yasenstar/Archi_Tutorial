@@ -7,6 +7,8 @@
   - [1. Setup and Configuration](#1-setup-and-configuration)
     - [1.1 Setup](#11-setup)
     - [1.2 Configuration](#12-configuration)
+  - [5. Manage Branches](#5-manage-branches)
+    - [5.3 Handling Branches in the Team](#53-handling-branches-in-the-team)
 
 ## Contents
 
@@ -72,3 +74,14 @@ From Archi menu [Edit]>[Preferences], click "Collaboration" tab as below:
 | Authentication | - For all actions a `Primary Password` is required. You can set or change this password here.<br>- The `primary password` secures an encryption key that is used to encrypt all other passwords (passwords for each repository), the password that secures the SSH identity (if used) and the password that secures the Proxy settings (if used).<br>- `SSH`: if using SSH repositories set the path to the identity file and password here. If using more than one SSH key select the option to scan the `~/.ssh` folder for SSH keys, this allows more than one SSH key for different remote hosts. NOTT that the identity password must be the same for all key files. Reference: [SSH Authentication section](https://github.com/archimatetool/archi-modelrepository-plugin/wiki/SSH-Authentication)<br>- `HTTP`: If not enabled you will be prompted for your credentials each time you have to connect to a server (i.e. when refreshing or publishing a model). You can enable (by default) this option if you want a seamless experience. |
 | Proxy | - If the models you work with are stored on a server which is behind a web proxy, you can configure that here.<br>NOTE: if proxy support is enable - by default not- it will be used to connect to all of your models. |
 
+## 5. Manage Branches
+
+### 5.3 Handling Branches in the Team
+
+Below steps are the reference "bible" for our modeler team to collaborate using coArchi1 on the common model:
+
+<img src="img/handle_branch_v11_20250429.png" alt="handling branches steps" width="800">
+
+---
+
+Last updated at 2026-03-01
