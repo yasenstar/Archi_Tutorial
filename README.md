@@ -55,6 +55,4 @@ Once exporting Archi model to HTML report, understanding below E-R diagram will 
 
 ---
 
-Any questions are welcome to reach me at [My Email](mailto:xiaoqizhao@outlook.com?subject=Archi%20Tool%20Tutorial&body=I%20have%20question.)
-
-Last updated at 2/25/2026, 10:51:11 AM 
+Any questions are welcome to reach me at [My Email](mailto:xiaoqizhao@outlook.com?subject=Archi%20Tool%20Tutorial&body=I%20have%20question.), last updated at 2026-03-01
