@@ -3,8 +3,10 @@
 - [Archi Plugin Tutorial - coArchi1](#archi-plugin-tutorial---coarchi1)
   - [Contents](#contents)
   - [About coArchi1](#about-coarchi1)
+  - [0. Setup Archi Test Environments](#0-setup-archi-test-environments)
   - [1. Setup and Configuration](#1-setup-and-configuration)
     - [1.1 Setup](#11-setup)
+    - [1.2 Configuration](#12-configuration)
 
 ## Contents
 
@@ -18,6 +20,34 @@ coArchi1 (v0.9.5 as of 2026/02/28) is provided from the Archi development team a
 
 Check [wiki page](https://github.com/archimatetool/archi-modelrepository-plugin/wiki) to learn the words from Archi project. Below are based on the wiki structure with adding more practical reference.
 
+## 0. Setup Archi Test Environments
+
+To simulate and demo collaboration within one team, using Archi zip package to install two parallel instances, configure the `Archi.ini` to point to its specific path so that their programs are not conflicted and you may open them at the same time.
+
+Default `Archi.ini` content:
+
+```conf
+-startup
+plugins/org.eclipse.equinox.launcher_1.6.800.v20240513-1750.jar
+--launcher.library
+plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.1000.v20240507-1834
+-cleanConfig
+--launcher.defaultAction
+openFile
+-eclipse.keyring
+@user.home/AppData/Roaming/Archi/secure_storage
+-vmargs
+-Dosgi.requiredJavaVersion=21
+-Dfile.encoding=UTF-8
+-Declipse.p2.data.area=@config.dir/p2
+-Ddata.location=@user.home/Documents/Archi
+-Dslf4j.internal.verbosity=ERROR
+--add-modules=ALL-SYSTEM
+-Dosgi.instance.area=@user.home/AppData/Roaming/Archi
+-Dosgi.configuration.area=@user.home/AppData/Roaming/Archi/config
+-Dorg.eclipse.equinox.p2.reconciler.dropins.directory=%user.home%/AppData/Roaming/Archi/dropins
+```
+
 ## 1. Setup and Configuration
 
 ### 1.1 Setup
@@ -28,4 +58,17 @@ Download and Installation Steps:
   ![install-coArchi1](img/screenshots/001_install-coArchi1.png)
 3. The "Collaboration" menu should now be visible
   ![coArchi-plugin-window](img/screenshots/002_manage-plugin-coarchi1.png)
+
+### 1.2 Configuration
+
+From Archi menu [Edit]>[Preferences], click "Collaboration" tab as below:
+
+![Collaboration Configuration](img/screenshots/003_preference-collaboration.png)
+
+| Setting Item Group | Explanation |
+| --- | --- |
+| Global User Details | - Stored in `.gitconfig` file<br>- Every commit is signed with these identity, comprising by `Name` and `Email`<br>- NOTE: you cannot change the signature of a commit after committing! |
+| Workspace | - The `Collaboration Workspace folder` is by default located in Archi's home folder. This folder contains local copies of all the models that you have in your workspace. In some aspects, it **is** your workspace.<br>- You can change this location if required.<br>- If you want the models to update their status in the background, check the setting here. `Background fetch` allos Archi to automatically get remote updates to update a model's status base on the `Refresh interval` setting. Note: this does NOT actually refresh the model but only the status. |
+| Authentication | - For all actions a `Primary Password` is required. You can set or change this password here.<br>- The `primary password` secures an encryption key that is used to encrypt all other passwords (passwords for each repository), the password that secures the SSH identity (if used) and the password that secures the Proxy settings (if used).<br>- `SSH`: if using SSH repositories set the path to the identity file and password here. If using more than one SSH key select the option to scan the `~/.ssh` folder for SSH keys, this allows more than one SSH key for different remote hosts. NOTT that the identity password must be the same for all key files. Reference: [SSH Authentication section](https://github.com/archimatetool/archi-modelrepository-plugin/wiki/SSH-Authentication)<br>- `HTTP`: If not enabled you will be prompted for your credentials each time you have to connect to a server (i.e. when refreshing or publishing a model). You can enable (by default) this option if you want a seamless experience. |
+| Proxy | - If the models you work with are stored on a server which is behind a web proxy, you can configure that here.<br>NOTE: if proxy support is enable - by default not- it will be used to connect to all of your models. |
 
