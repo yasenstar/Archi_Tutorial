@@ -42,6 +42,8 @@ How's the tutorial structured and where are the resources?
 
 To simulate and demo collaboration within one team, using Archi zip package to install two parallel instances, configure the `Archi.ini` to point to its specific path so that their programs are not conflicted and you may open them at the same time.
 
+Archi version: 5.7.0
+
 Default `Archi.ini` content:
 
 ```conf

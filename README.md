@@ -9,6 +9,7 @@ This is the repository to document hands-on demos for Archi (ArchiMate Modeling)
   - [Video Lists for Demostration the User Guide](#video-lists-for-demostration-the-user-guide)
   - [Repositories on Learning Archi User Guide](#repositories-on-learning-archi-user-guide)
   - [Understand Archi Model's E-R](#understand-archi-models-e-r)
+  - [Archi Plug-ins Tutorials](#archi-plug-ins-tutorials)
 
 ## Structure of the User Guide Content
 
@@ -46,6 +47,11 @@ Click below image to enroll the full well packaged course in Udemy, and support 
 Once exporting Archi model to HTML report, understanding below E-R diagram will benefit you to query needed information:
 
 ![Archi E-R](img/Archi_E-R.png)
+
+## Archi Plug-ins Tutorials
+
+- [coArchi1](Archi_Plugins/coArchi1/README.md)
+- coArchi2
 
 ---
 
