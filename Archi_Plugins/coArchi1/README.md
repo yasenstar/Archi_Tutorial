@@ -9,6 +9,7 @@
     - [1.1 coArchi1 Setup](#11-coarchi1-setup)
     - [1.2 coArchi1 Configuration](#12-coarchi1-configuration)
   - [2. coArchi1 Basics](#2-coarchi1-basics)
+    - [2.1 How it Works?](#21-how-it-works)
   - [3. Manage Workspace](#3-manage-workspace)
   - [4. Manage Changes](#4-manage-changes)
     - [4.2 Refresh and Publish](#42-refresh-and-publish)
@@ -105,6 +106,25 @@ From Archi menu [Edit]>[Preferences], click "Collaboration" tab as below:
 | Proxy | - If the models you work with are stored on a server which is behind a web proxy, you can configure that here.<br>NOTE: if proxy support is enable - by default not- it will be used to connect to all of your models. |
 
 ## 2. coArchi1 Basics
+
+### 2.1 How it Works?
+
+Archi tool itself used to be a single user solution with no collaboration feature. This had been changed with the creation, some years ago, of the model repository plugin, usually known as the collaboration plugin (or in short name now - coArchi).
+
+The plugin follow the `KISS - Keep It Stupid Simple` principle: instead of reinventing the wheel and implementing the whole set of collaboration features, it uses `Git` (a source code management system) to manage the hard stuff (branch management, diff/merge...). But the plugin manages all the "plumbing" needed to provide a good user experience without requiring `Git` knowledge.
+
+Note: While, I suggest you learn some foundation concepts of `Git` still, which will benefit you to understand the way of handling coArchi branches!
+
+From a technical point of view, a model repository is nothing more than a `Git` server (or project concept in GitHub) into which you'll have one git repository per model. Each of those repositories (that you'll have to create by yourself) will contain a single ArchiMate model stored in a set of XML files. Each file contains the descriptionb of a single object (element, relationship or view).
+
+Practice: In this course, we will create one model called 'coArchi1Test`, and push it as repository in GitHub.
+
+> [!IMPORTANT]
+> - ALWAYS handle `commit` and `merge` and other activities within coArchi plugin.
+> - You should NOT use `merge`, `pull requests` or similar features from your Git server as this would certainly lead to model corruption!
+> - Though based on Git, the collaboration plugin adds anti-corruption actions while performing these operations.
+
+If you are interested by the underlying logic, note that the coArchi1 is built upon adrealy existing Grafico plugin (https://github.com/archi-contribs/archi-grafico-plugin), so reading Grafico wiki (https://github.com/archi-contribs/archi-grafico-plugin/wiki) can helps understanding how all this can work.
 
 ## 3. Manage Workspace
 
