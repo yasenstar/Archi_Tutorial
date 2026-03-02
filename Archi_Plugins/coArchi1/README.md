@@ -11,6 +11,10 @@
   - [2. coArchi1 Basics](#2-coarchi1-basics)
   - [3. Manage Workspace](#3-manage-workspace)
   - [4. Manage Changes](#4-manage-changes)
+    - [4.2 Refresh and Publish](#42-refresh-and-publish)
+      - [4.2.1 Refresh a Model](#421-refresh-a-model)
+        - [4.2.1.1 Refresh `not authorized` Error](#4211-refresh-not-authorized-error)
+      - [4.2.2 Publish a Model](#422-publish-a-model)
   - [5. Manage Branches](#5-manage-branches)
     - [5.3 Handling Branches in the Team](#53-handling-branches-in-the-team)
   - [6. Connection, Authentication \& Security](#6-connection-authentication--security)
@@ -105,6 +109,34 @@ From Archi menu [Edit]>[Preferences], click "Collaboration" tab as below:
 ## 3. Manage Workspace
 
 ## 4. Manage Changes
+
+### 4.2 Refresh and Publish
+
+#### 4.2.1 Refresh a Model
+
+![Refresh Model](img/screenshots/Refresh_Model.png)
+
+This action updates the local copy of a model by importing and merging all changes that have been published to the remote model by other users.
+
+If you have uncommitted changes in your local model (even if they are not in conflict with other changes to the repository), coArchi will require you to commit them as you do a refresh.
+
+##### 4.2.1.1 Refresh `not authorized` Error
+
+When using HTTPS via GitHub with 2-factor authentication (2FA), if you areabel to import and refresh your model but see the following message on publish:
+
+`There was an error: <repo URL>: not authorized`
+
+[Create a Personal Access Token (PAT)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and use it in place of your normal GitHub password.
+
+#### 4.2.2 Publish a Model
+
+![Publish Changes](img/screenshots/Publish_Changes.png)
+
+This action allows you to share your changes with your colleagues by saving them to the (remote) model repository.
+
+If needed, a resolution of conflicts will be triggered.
+
+Technically, the publication corresponds to a `git pull` followed by a `git push`.
 
 ## 5. Manage Branches
 
