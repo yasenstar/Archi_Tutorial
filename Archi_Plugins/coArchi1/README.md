@@ -11,6 +11,7 @@
   - [2. coArchi1 Basics](#2-coarchi1-basics)
     - [2.1 How it Works?](#21-how-it-works)
     - [2.2 Key User Interface Elements](#22-key-user-interface-elements)
+    - [2.3 Quick Start](#23-quick-start)
   - [3. Manage Workspace](#3-manage-workspace)
   - [4. Manage Changes](#4-manage-changes)
     - [4.2 Refresh and Publish](#42-refresh-and-publish)
@@ -129,7 +130,28 @@ If you are interested by the underlying logic, note that the coArchi1 is built u
 
 ### 2.2 Key User Interface Elements
 
-- Collaboration Workspace
+- Collaboration Workspace:
+  - allow quick access to all ArchiMate models managed by this plugin. Model icon change depending on sync state.
+  - This state is also visible in the status bar when a model is selected.
+- Change history tab:
+  - show the list of commits done on selected model.
+  - Also allows access to old versions (`Extract model from this commit`) and rolling back changes (`Restore to this commit` and `Undo the latest commit`)
+- Collaboration menu:
+  - offers access to all features.
+  - They apply to the currently active model (i.e. the model owning the view being edited and in focus, or the one that contains the select element in the model tree)
+- Toolbar:
+  - offers quick access to main features
+  - Also apply to the currently active model
+
+### 2.3 Quick Start
+
+1. You need to have a new empty git repository already setup on a git server
+2. Ensure the default branch on the git server is named "master" ("main" will be supported in a future version)
+3. Note that some Git hosting sites, such as GitHub and BitBucket, require the use of a Personal Access Token for the password if using a HTTPS connection. See https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+4. To add the model from the repository locally, select the first toolbar button in the plugin tab (the green cross). This will clone the repository and create a new blank model
+5. Work as usual on your model and save it whenever you want
+6. When you're ready to commit your changes, then choose "Commit Changes" (this can be done offline)
+7. When you're ready to publish/share your work, then choose "Publish". In case of conflicts (same concept changed and published by someone else) you'll see a windows helping you to fix them.
 
 ## 3. Manage Workspace
 
