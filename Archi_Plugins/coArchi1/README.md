@@ -10,6 +10,7 @@
     - [1.2 coArchi1 Configuration](#12-coarchi1-configuration)
   - [2. coArchi1 Basics](#2-coarchi1-basics)
     - [2.1 How it Works?](#21-how-it-works)
+    - [2.2 Key User Interface Elements](#22-key-user-interface-elements)
   - [3. Manage Workspace](#3-manage-workspace)
   - [4. Manage Changes](#4-manage-changes)
     - [4.2 Refresh and Publish](#42-refresh-and-publish)
@@ -117,7 +118,7 @@ Note: While, I suggest you learn some foundation concepts of `Git` still, which 
 
 From a technical point of view, a model repository is nothing more than a `Git` server (or project concept in GitHub) into which you'll have one git repository per model. Each of those repositories (that you'll have to create by yourself) will contain a single ArchiMate model stored in a set of XML files. Each file contains the descriptionb of a single object (element, relationship or view).
 
-Practice: In this course, we will create one model called 'coArchi1Test`, and push it as repository in GitHub.
+Practice: In this course, we will create one model called `coArchi1Test`, and push it as repository in GitHub.
 
 > [!IMPORTANT]
 > - ALWAYS handle `commit` and `merge` and other activities within coArchi plugin.
@@ -125,6 +126,10 @@ Practice: In this course, we will create one model called 'coArchi1Test`, and pu
 > - Though based on Git, the collaboration plugin adds anti-corruption actions while performing these operations.
 
 If you are interested by the underlying logic, note that the coArchi1 is built upon adrealy existing Grafico plugin (https://github.com/archi-contribs/archi-grafico-plugin), so reading Grafico wiki (https://github.com/archi-contribs/archi-grafico-plugin/wiki) can helps understanding how all this can work.
+
+### 2.2 Key User Interface Elements
+
+- Collaboration Workspace
 
 ## 3. Manage Workspace
 
