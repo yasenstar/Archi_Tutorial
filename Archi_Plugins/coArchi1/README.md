@@ -13,6 +13,9 @@
     - [2.2 Key User Interface Elements](#22-key-user-interface-elements)
     - [2.3 Quick Start](#23-quick-start)
   - [3. Manage Workspace](#3-manage-workspace)
+    - [3.1 Add Local Model to Workspace](#31-add-local-model-to-workspace)
+    - [3.2 Import a Model (from Remote Workspace)](#32-import-a-model-from-remote-workspace)
+    - [3.3 Delete a Model](#33-delete-a-model)
   - [4. Manage Changes](#4-manage-changes)
     - [4.2 Refresh and Publish](#42-refresh-and-publish)
       - [4.2.1 Refresh a Model](#421-refresh-a-model)
@@ -154,6 +157,38 @@ If you are interested by the underlying logic, note that the coArchi1 is built u
 7. When you're ready to publish/share your work, then choose "Publish". In case of conflicts (same concept changed and published by someone else) you'll see a windows helping you to fix them.
 
 ## 3. Manage Workspace
+
+### 3.1 Add Local Model to Workspace
+
+> [!NOTE] Within this tutorial, we'll refer to `ArchiSurance` case study as model content reference.
+
+Steps to enable collaboration work on an existing or newly created model are:
+
+1. Create a new Git repository on your Git server (either cloud or on-premise soluiton like GitHub, GitLab, Azure DevOpe, BitBucket, Gitee...)
+2. Open (or create) your model in Archi
+3. Select the "Collaboration > Add local model to workspace and publish" menu option
+4. In the dialog that will appear, enter the URL of the newly created Git repository and your credentials on the Git server of your choice.
+5. The model will be added to the Collaboration Workspace and published on the Git server
+
+> [!NOTE] The URL of the Git repository usually ends with `.git`!
+
+You can compare the standalone model (`.archimate`) with the model after published to the Git server.
+
+### 3.2 Import a Model (from Remote Workspace)
+
+Once a model has been switched to collaborative mode and published on the server, it can be imported by another user, with following steps:
+
+1. Select the "Collaboration > Import Remote Model to Workspace" menu option
+2. In the dialog box that will appear, enter the Git repository's URL and your credentials on the Git server
+3. The model will be added to the Collaboration Workspace
+
+### 3.3 Delete a Model
+
+When you no longer wish to work on a model, you can remove it from your workspace through the "Collaboration > Delete Model from Workspace" menu action.
+
+You will then be prompted to confirm.
+
+> [!NOTE] This action only deletes your local copy. The remote model stored on the Git server will not be impacted.
 
 ## 4. Manage Changes
 
