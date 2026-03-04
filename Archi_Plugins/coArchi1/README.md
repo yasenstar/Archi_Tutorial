@@ -17,10 +17,16 @@
     - [3.2 Import a Model (from Remote Workspace)](#32-import-a-model-from-remote-workspace)
     - [3.3 Delete a Model](#33-delete-a-model)
   - [4. Manage Changes](#4-manage-changes)
+    - [4.1 Commit or Undo Your Changes](#41-commit-or-undo-your-changes)
+      - [4.1.1 Save Changes](#411-save-changes)
+      - [4.1.2 Commit Changes](#412-commit-changes)
+      - [4.1.3 Abort Uncommitted Changes](#413-abort-uncommitted-changes)
     - [4.2 Refresh and Publish](#42-refresh-and-publish)
       - [4.2.1 Refresh a Model](#421-refresh-a-model)
         - [4.2.1.1 Refresh `not authorized` Error](#4211-refresh-not-authorized-error)
       - [4.2.2 Publish a Model](#422-publish-a-model)
+    - [4.3 Change History - `The Time Machine`](#43-change-history---the-time-machine)
+    - [4.4 Solve Conflicts](#44-solve-conflicts)
   - [5. Manage Branches](#5-manage-branches)
     - [5.3 Handling Branches in the Team](#53-handling-branches-in-the-team)
   - [6. Connection, Authentication \& Security](#6-connection-authentication--security)
@@ -192,6 +198,20 @@ You will then be prompted to confirm.
 
 ## 4. Manage Changes
 
+### 4.1 Commit or Undo Your Changes
+
+#### 4.1.1 Save Changes
+
+This action is the usual "Save" provided by Archi. Changes are saved but no commits are created
+
+#### 4.1.2 Commit Changes
+
+This action locally backs up the changes without publishing them. You will have to enter a message describing the changes.
+
+#### 4.1.3 Abort Uncommitted Changes
+
+This action allows you to `undo` any locally made but uncommitted changes.
+
 ### 4.2 Refresh and Publish
 
 #### 4.2.1 Refresh a Model
@@ -219,6 +239,10 @@ This action allows you to share your changes with your colleagues by saving them
 If needed, a resolution of conflicts will be triggered.
 
 Technically, the publication corresponds to a `git pull` followed by a `git push`.
+
+### 4.3 Change History - `The Time Machine`
+
+### 4.4 Solve Conflicts
 
 ## 5. Manage Branches
 
