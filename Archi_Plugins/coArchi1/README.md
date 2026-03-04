@@ -255,6 +255,8 @@ Technically, the publication corresponds to a `git pull` followed by a `git push
 
 ### 4.3 Change History - `The Time Machine`
 
+![change history 1](img/screenshots/014_change-history-1.png)
+
 ### 4.4 Solve Conflicts
 
 ## 5. Manage Branches
