@@ -257,6 +257,8 @@ Technically, the publication corresponds to a `git pull` followed by a `git push
 
 ![change history 1](img/screenshots/014_change-history-1.png)
 
+![change history 2](img/screenshots/015_change-history-2.png)
+
 ### 4.4 Solve Conflicts
 
 ## 5. Manage Branches
