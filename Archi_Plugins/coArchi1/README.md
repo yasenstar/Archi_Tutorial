@@ -139,6 +139,8 @@ If you are interested by the underlying logic, note that the coArchi1 is built u
 
 ### 2.2 Key User Interface Elements
 
+![Key UI](img/screenshots/004_Key-UI.png)
+
 - Collaboration Workspace:
   - allow quick access to all ArchiMate models managed by this plugin. Model icon change depending on sync state.
   - This state is also visible in the status bar when a model is selected.
