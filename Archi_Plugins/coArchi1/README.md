@@ -198,6 +198,7 @@ Once a model has been switched to collaborative mode and published on the server
 
 1. Select the "Collaboration > Import Remote Model to Workspace" menu option
 2. In the dialog box that will appear, enter the Git repository's URL and your credentials on the Git server
+   ![import remote model](img/screenshots/011_add-remote-model-coArchi1Practice.png)
 3. The model will be added to the Collaboration Workspace
 
 ### 3.3 Delete a Model
