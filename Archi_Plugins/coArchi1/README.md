@@ -159,11 +159,19 @@ If you are interested by the underlying logic, note that the coArchi1 is built u
 
 1. You need to have a new empty git repository already setup on a git server
 2. Ensure the default branch on the git server is named "master" ("main" will be supported in a future version)
-3. Note that some Git hosting sites, such as GitHub and BitBucket, require the use of a Personal Access Token for the password if using a HTTPS connection. See https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+   ![default branch](img/screenshots/006_default-branch-master.png)
+3. > [!Note] some Git hosting sites, such as GitHub and BitBucket, require the use of a Personal Access Token for the password if using a HTTPS connection. See https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 4. To add the model from the repository locally, select the first toolbar button in the plugin tab (the green cross). This will clone the repository and create a new blank model
+   ![add model](img/screenshots/007_add-remote-model.png)
+   - URL: Git Repository link, here we use https://github.com/EA-PlayGround/coArchi1QuickStart for demo in the courese
+   - User Name: GitHub account name
+   - Password: since I'm having MFA setting in GitHub, cannot use single password here, need to generate the PAT (step 3) and put the token value here
 5. Work as usual on your model and save it whenever you want
+   ![save changes](img/screenshots/008_save-model-change.png)
 6. When you're ready to commit your changes, then choose "Commit Changes" (this can be done offline)
+   ![commit changes](img/screenshots/009_commit-changes.png)
 7. When you're ready to publish/share your work, then choose "Publish". In case of conflicts (same concept changed and published by someone else) you'll see a windows helping you to fix them.
+   ![publish changes](img/screenshots/010_publish-changes.png)
 
 ## 3. Manage Workspace
 
