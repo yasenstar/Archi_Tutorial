@@ -15,7 +15,7 @@
   - [3. Manage Workspace](#3-manage-workspace)
     - [3.1 Add Local Model to Workspace](#31-add-local-model-to-workspace)
     - [3.2 Import a Model (from Remote Workspace)](#32-import-a-model-from-remote-workspace)
-    - [3.3 Delete a Model](#33-delete-a-model)
+    - [3.3 Delete a Model from Local Workspace](#33-delete-a-model-from-local-workspace)
   - [4. Manage Changes](#4-manage-changes)
     - [4.1 Commit or Undo Your Changes](#41-commit-or-undo-your-changes)
       - [4.1.1 Save Changes](#411-save-changes)
@@ -201,7 +201,7 @@ Once a model has been switched to collaborative mode and published on the server
    ![import remote model](img/screenshots/011_add-remote-model-coArchi1Practice.png)
 3. The model will be added to the Collaboration Workspace
 
-### 3.3 Delete a Model
+### 3.3 Delete a Model from Local Workspace
 
 When you no longer wish to work on a model, you can remove it from your workspace through the "Collaboration > Delete Model from Workspace" menu action.
 
