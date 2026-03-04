@@ -184,6 +184,7 @@ Steps to enable collaboration work on an existing or newly created model are:
 1. Create a new Git repository on your Git server (either cloud or on-premise soluiton like GitHub, GitLab, Azure DevOpe, BitBucket, Gitee...)
 2. Open (or create) your model in Archi
 3. Select the "Collaboration > Add local model to workspace and publish" menu option
+   ![add local model](img/screenshots/011_add-local-model.png)
 4. In the dialog that will appear, enter the URL of the newly created Git repository and your credentials on the Git server of your choice.
 5. The model will be added to the Collaboration Workspace and published on the Git server
 
