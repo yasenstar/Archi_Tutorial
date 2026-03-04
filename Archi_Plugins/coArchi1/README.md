@@ -148,6 +148,7 @@ If you are interested by the underlying logic, note that the coArchi1 is built u
   - show the list of commits done on selected model.
   - Also allows access to old versions (`Extract model from this commit`) and rolling back changes (`Restore to this commit` and `Undo the latest commit`)
 - Collaboration menu:
+  - ![coArchi1 Menu](img/screenshots/005_coArchi1-menu.png)
   - offers access to all features.
   - They apply to the currently active model (i.e. the model owning the view being edited and in focus, or the one that contains the select element in the model tree)
 - Toolbar:
