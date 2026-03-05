@@ -261,6 +261,22 @@ Technically, the publication corresponds to a `git pull` followed by a `git push
 
 ### 4.4 Solve Conflicts
 
+Typical situations for getting conflicts are listed below and you may see in the demo:
+
+Scenario 1: Elements are changed concurrently in same view
+
+1. Both user1 and user2 are working on the same view and commit/publish
+2. They may place one common element in the different position of the view
+3. User1 merges the change to "master" first
+4. Then when User2 want to merge from "master", conflict need to be solved
+
+Scenario 2: Element is being used newly but deleted by another user
+
+1. User1 use one repository existing element to a new view, and other normal modeling work (e.g. adding relationships)
+2. User2 delete that exact element from model
+3. One user merges the change to "master" first
+4. Then when User2 want to merge from "master", conflict need to be solved
+
 ## 5. Manage Branches
 
 ### 5.3 Handling Branches in the Team
