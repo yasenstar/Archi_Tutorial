@@ -29,6 +29,8 @@
     - [4.4 Solve Conflicts](#44-solve-conflicts)
   - [5. Manage Branches](#5-manage-branches)
     - [5.1 Create and Delete Branches](#51-create-and-delete-branches)
+      - [5.1.1 Create Branches](#511-create-branches)
+      - [5.1.2 Delete Branches](#512-delete-branches)
     - [5.2 Merge Branches](#52-merge-branches)
     - [5.3 Handling Branches in the Team](#53-handling-branches-in-the-team)
   - [6. Connection, Authentication \& Security](#6-connection-authentication--security)
@@ -272,6 +274,8 @@ Scenario 1: Elements are changed concurrently in same view
 3. User1 merges the change to "master" first
 4. Then when User2 want to merge from "master", conflict need to be solved
 
+![conflict - scenario1](img/screenshots/016_conflict-1.png)
+
 Scenario 2: Element is being used newly but deleted by another user
 
 1. User1 use one repository existing element to a new view, and other normal modeling work (e.g. adding relationships)
@@ -279,9 +283,25 @@ Scenario 2: Element is being used newly but deleted by another user
 3. One user merges the change to "master" first
 4. Then when User2 want to merge from "master", conflict need to be solved
 
+![conflict - scenario2](img/screenshots/017_conflict-2.png)
+
 ## 5. Manage Branches
 
 ### 5.1 Create and Delete Branches
+
+#### 5.1.1 Create Branches
+
+Right click your current active branch, you can choose `Add New Branch to Current Branch`
+
+![create branch](img/screenshots/018_create-branch.png)
+
+#### 5.1.2 Delete Branches
+
+Right click any branches other than your current active branch, you can choose `Delete Branch"
+
+![delete branch](img/screenshots/019_delete-branch.png)
+
+If the target branch is "Orphaned" - which means somebody deleted it from Git Server already, you may remove that through choosing `Clean Selected Orphaned Branches`
 
 ### 5.2 Merge Branches
 
