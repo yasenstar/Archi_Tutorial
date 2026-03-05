@@ -307,6 +307,8 @@ If the target branch is "Orphaned" - which means somebody deleted it from Git Se
 
 ### 5.2 Merge Branches
 
+When right click another branch and that branch has certain commits ahead your current active branch, the "merge" option is able to be chosen, and you can `merge` those aheads into your current branch.
+
 ### 5.3 Handling Branches in the Team
 
 Below steps are the reference "bible" for our modeler team to collaborate using coArchi1 on the common model:
