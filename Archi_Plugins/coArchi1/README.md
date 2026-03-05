@@ -28,6 +28,8 @@
     - [4.3 Change History - `The Time Machine`](#43-change-history---the-time-machine)
     - [4.4 Solve Conflicts](#44-solve-conflicts)
   - [5. Manage Branches](#5-manage-branches)
+    - [5.1 Create and Delete Branches](#51-create-and-delete-branches)
+    - [5.2 Merge Branches](#52-merge-branches)
     - [5.3 Handling Branches in the Team](#53-handling-branches-in-the-team)
   - [6. Connection, Authentication \& Security](#6-connection-authentication--security)
   - [7. Do's \& Don't and Other Known Issues](#7-dos--dont-and-other-known-issues)
@@ -278,6 +280,10 @@ Scenario 2: Element is being used newly but deleted by another user
 4. Then when User2 want to merge from "master", conflict need to be solved
 
 ## 5. Manage Branches
+
+### 5.1 Create and Delete Branches
+
+### 5.2 Merge Branches
 
 ### 5.3 Handling Branches in the Team
 
