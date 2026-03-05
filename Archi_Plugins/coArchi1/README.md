@@ -2,6 +2,7 @@
 
 - [Archi Plugin Tutorial - coArchi1](#archi-plugin-tutorial---coarchi1)
   - [Contents](#contents)
+  - [Packaged Practice Demo in Udemy](#packaged-practice-demo-in-udemy)
   - [0. Introduction](#0-introduction)
     - [0.1 Opening and Introduction](#01-opening-and-introduction)
     - [0.2 Setup Archi Test Environments](#02-setup-archi-test-environments)
@@ -39,6 +40,10 @@
 ## Contents
 
 <img src="img/Archi_Plugins_coArchi1.png" alt="coArchi1 TOC" width="600"></img>
+
+## Packaged Practice Demo in Udemy
+
+[![course cover](img/course-cover.png)](https://www.udemy.com/course/mastering-archi-plug-ins-coarchi1/?referralCode=2725CC0DEA23CB0F716F)
 
 ## 0. Introduction
 
