@@ -303,6 +303,8 @@ Right click any branches other than your current active branch, you can choose `
 
 If the target branch is "Orphaned" - which means somebody deleted it from Git Server already, you may remove that through choosing `Clean Selected Orphaned Branches`
 
+![Orphaned Branch](img/screenshots/20_orphaned.png)
+
 ### 5.2 Merge Branches
 
 ### 5.3 Handling Branches in the Team
