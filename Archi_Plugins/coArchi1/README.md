@@ -35,7 +35,13 @@
     - [5.2 Merge Branches](#52-merge-branches)
     - [5.3 Handling Branches in the Team](#53-handling-branches-in-the-team)
   - [6. Connection, Authentication \& Security](#6-connection-authentication--security)
+    - [6.1 Troubleshooting Connection Issues](#61-troubleshooting-connection-issues)
+    - [6.2 Use SSL TLS with Local or Private PKI](#62-use-ssl-tls-with-local-or-private-pki)
+    - [6.3 SSH Authentication](#63-ssh-authentication)
   - [7. Do's \& Don't and Other Known Issues](#7-dos--dont-and-other-known-issues)
+    - [7.1 Planned Maintenance Window](#71-planned-maintenance-window)
+    - [7.2 File is Not Directory or `folder.xml` does not Exist](#72-file-is-not-directory-or-folderxml-does-not-exist)
+    - [7.3 Partial Model Recovery](#73-partial-model-recovery)
 
 ## Contents
 
@@ -322,7 +328,31 @@ Below steps are the reference "bible" for our modeler team to collaborate using 
 
 ## 6. Connection, Authentication & Security
 
+### 6.1 Troubleshooting Connection Issues
+
+https://github.com/archimatetool/archi-modelrepository-plugin/wiki/Troubleshooting-Connection-Issues
+
+### 6.2 Use SSL TLS with Local or Private PKI
+
+https://github.com/archimatetool/archi-modelrepository-plugin/wiki/Use-SSL-TLS-with-local-or-private-PKI
+
+### 6.3 SSH Authentication
+
+https://github.com/archimatetool/archi-modelrepository-plugin/wiki/SSH-Authentication
+
 ## 7. Do's & Don't and Other Known Issues
+
+### 7.1 Planned Maintenance Window
+
+https://github.com/archimatetool/archi-modelrepository-plugin/wiki/Planned-maintenance-window
+
+### 7.2 File is Not Directory or `folder.xml` does not Exist
+
+https://github.com/archimatetool/archi-modelrepository-plugin/wiki/File-is-not-directory-or-folder.xml-does-not-exist
+
+### 7.3 Partial Model Recovery
+
+https://github.com/archimatetool/archi-modelrepository-plugin/wiki/Partial-model-recovery
 
 ---
 
