@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3ff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_solarized_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -149,7 +149,12 @@
 </node>
 </node>
 </node>
-<node TEXT="coArchi2" FOLDED="true" POSITION="bottom_or_right" ID="ID_501261328" CREATED="1772271622692" MODIFIED="1772271624686">
+<node TEXT="jArchi" POSITION="bottom_or_right" ID="ID_10734507" CREATED="1773473105386" MODIFIED="1773473110776">
+<node TEXT="Samples" ID="ID_1008161859" CREATED="1773473118960" MODIFIED="1773473138965">
+<node TEXT="Add &quot;Last Updated at&quot; and &quot;Last Updated by&quot;" ID="ID_1652598043" CREATED="1773473142976" MODIFIED="1773473167555"/>
+</node>
+</node>
+<node TEXT="coArchi2" FOLDED="true" POSITION="top_or_left" ID="ID_501261328" CREATED="1772271622692" MODIFIED="1772271624686">
 <node TEXT="1. Opening and Overview" ID="ID_1628476352" CREATED="1772278715370" MODIFIED="1772278737475">
 <node TEXT="1.1 FAQ" ID="ID_1883862198" CREATED="1772278737478" MODIFIED="1772278742087"/>
 <node TEXT="1.2 Why coArchi2?" ID="ID_1500788259" CREATED="1772278742354" MODIFIED="1772278748502"/>
