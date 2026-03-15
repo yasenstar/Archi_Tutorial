@@ -52,6 +52,7 @@ Once exporting Archi model to HTML report, understanding below E-R diagram will 
 
 - [coArchi1](Archi_Plugins/coArchi1/README.md)
 - coArchi2
+- [Archi Scripting - jArchi]
 
 ---
 
