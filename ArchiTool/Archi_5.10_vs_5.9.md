@@ -159,9 +159,16 @@ When you drag a group of elements including junction to a `Grouping`, by default
 - 5.10.10:
   ![N11-5.10.0-grouping-1](img/N11-5.10.0-grouping-1.png)
 
-Here you don't see the difference, 
+Here you don't see the difference, however, now in v5.10.0, after you create the `Composes Of` relationship from the `Grouping` to the `Junction`, you can have all elements - including `Junction` - shown in the visualization, which means the correct relationship analysis result base on the view:
+
+| v5.9.0 | v5.10.0 |
+| --- | --- |
+| `Junction` is invisible when analyzing `Grouping`'s composition relation | `Junction` is visible after added as `Composes Of` from `Grouping` |
+| ![N11-5.9.0-grouping-2](img/N11-5.9.0-grouping-2.png) | ![N11-5.10.0-grouping-2](img/N11-5.10.0-grouping-2.png) |
 
 ### N12. Add relationships to the “ArchiMate Relationships” dialog
+
+
 
 ### N13. Add Clear Cache button for Edge browser in preferences on Windows
 
