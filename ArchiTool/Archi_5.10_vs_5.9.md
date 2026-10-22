@@ -130,9 +130,36 @@ Do not see the behavior difference between v5.9.0 and v5.10.0.
 
 ### N09. Add new option for connection label offset (North, South, East, etc.)
 
+![5.10_n09](img/5.10_n09.png)
+
+The 9 positions are indicated as below:
+
+![5.10_n09-1](img/5.10_n09-1.png)
+
 ### N10. New selection and drag outline figures
 
+| v5.9.0 | v5.10.0 |
+| --- | --- |
+| Outline figure is gray-filled | Outline figure is blue-filled |
+| ![N10-5.9.0](img/N10-5.9.0.png) | ![N10-5.10.0](img/N10-5.10.0.png) |
+
 ### N11. Allow Aggregation/Composition connections from Grouping/Location to Junction
+
+| | v5.9.0 | v5.10.0 |
+| --- | --- | --- |
+| | Only the existing relation | Add `Composed of` and `Aggregates` relation |
+| Grouping | ![N11-5.9.0-grouping](img/N11-5.9.0-grouping.png) | ![N11-5.10.0-grouping](img/N11-5.10.0-grouping.png) |
+| Location | ![N11-5.9.0-location](img/N11-5.9.0-location.png) | ![N11-5.10.0-location](img/N11-5.10.0-location.png) |
+
+When you drag a group of elements including junction to a `Grouping`, by default, you will be pop-up the relationship as `Composition` as below:
+
+- v5.9.0:
+  ![N11-5.9.0-grouping-1](img/N11-5.9.0-grouping-1.png)
+
+- 5.10.10:
+  ![N11-5.10.0-grouping-1](img/N11-5.10.0-grouping-1.png)
+
+Here you don't see the difference, 
 
 ### N12. Add relationships to the “ArchiMate Relationships” dialog
 

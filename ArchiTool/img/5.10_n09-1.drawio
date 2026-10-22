@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SqBl1--ROSkfhq-elM38-1" value="Capability" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-3" value="Value Stream" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-4" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SqBl1--ROSkfhq-elM38-1" target="SqBl1--ROSkfhq-elM38-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="270" as="sourcePoint" />
+            <mxPoint x="290" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-5" value="Centre" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-7" value="North" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="253" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-10" value="North East" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="253" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-11" value="North West" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="253" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-12" value="East" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-13" value="West" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-14" value="South" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-15" value="South East" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SqBl1--ROSkfhq-elM38-16" value="South West" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
