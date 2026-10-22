@@ -168,7 +168,9 @@ Here you don't see the difference, however, now in v5.10.0, after you create the
 
 ### N12. Add relationships to the “ArchiMate Relationships” dialog
 
+![N12-5.9.0-5.10.0](img/N12-5.9.0-5.10.0.png)
 
+Note from `Plateau`, `Location` and `Grouping` you now - in v5.10.0 - can have `Composition relation` and `Aggregation relation` to a relationship. (echo back to N11)
 
 ### N13. Add Clear Cache button for Edge browser in preferences on Windows
 
