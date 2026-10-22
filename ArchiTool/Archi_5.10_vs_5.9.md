@@ -4,8 +4,6 @@
   - [Overview of Testing](#overview-of-testing)
   - [New Features](#new-features)
     - [N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports](#n01-add-markdownhtml-support-for-documentation-fields-in-properties-tab-and-html-reports)
-- [Marketing](#marketing)
-  - [Marketing Level 2](#marketing-level-2)
     - [N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)](#n02-add-quick-add-popup-dialog-in-archimate-views-altclick-and-shifta-shortcuts)
     - [N03. Support for SVG image format in diagram figures](#n03-support-for-svg-image-format-in-diagram-figures)
     - [N04. Support multi-monitor display scaling on Windows (Eclipse)](#n04-support-multi-monitor-display-scaling-on-windows-eclipse)
@@ -44,8 +42,9 @@ Using following as the test Documentation for one sample element - capability:
 
 ===START===
 
-# Marketing
-## Marketing Level 2
+`# Marketing`
+
+`## Marketing Level 2`
 
 **Bold Text** with *Italic Text*.
 
@@ -91,15 +90,43 @@ If you want to use one existing element, still `drag and drop` from model tree,.
 
 ### N03. Support for SVG image format in diagram figures
 
+I see both v5.9.0 and v5.10.0 can support SVG as the exported view image format, as below:
+
+![5.10_n03](img/5.10_n03.png)
+
 ### N04. Support multi-monitor display scaling on Windows (Eclipse)
+
+Not see specific, will keep monitor.
 
 ### N05. Add zoom support to the Visualiser
 
+In v5.10.0, inside Visualiser area, use `Ctrl` + mouse' scroll-wheel to adjust, there're 7 levels of zoom-in and zoom-out.
+
+`Ctrl+0` will back to the original zoom level, from this level you can have -2 (zoom-out) to +5 (zoom-in) changes.
+
+![5.10_n05](img/5.10_n05.png)
+
 ### N06. Add “Manhattan Router” option for connections to the Visualiser
+
+| v5.9.0 | v5.10.0|
+| --- | --- |
+| ![5.9_n06](img/5.9_n06.png) | ![5.10_n06](img/5.10_n06.png) |
+
+After click the `Manhattan Router`, the connection line will be changes in v5.10.0:
+
+![5.10_n06-1](img/5.10_n06-1.png)
+
+This is one toggle setting, click it again will restore the original style:
+
+![5.10_n06-2](img/5.10_n06-2.png)
 
 ### N07. Zoom in diagrams now centres on the mouse cursor location
 
+Do not see the behavior difference between v5.9.0 and v5.10.0.
+
 ### N08. New grid display in diagrams
+
+![5.10_n08](img/5.10_n08.png)
 
 ### N09. Add new option for connection label offset (North, South, East, etc.)
 
