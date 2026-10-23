@@ -19,9 +19,16 @@
     - [N14. Import ArchiMate exchange format creates a bendpoint on connection for sourceAttachment and targetAttachment](#n14-import-archimate-exchange-format-creates-a-bendpoint-on-connection-for-sourceattachment-and-targetattachment)
     - [N15. Add a preference to show a circle indicator in tabs rather than an asterisk for unsaved changes](#n15-add-a-preference-to-show-a-circle-indicator-in-tabs-rather-than-an-asterisk-for-unsaved-changes)
   - [Improvements](#improvements)
+    - [I01. Built on Eclipse 4.40 and the latest Eclipse GEF/Draw2d frameworks](#i01-built-on-eclipse-440-and-the-latest-eclipse-gefdraw2d-frameworks)
+    - [I02. Bundled Java Runtime is version 21.0.11+10](#i02-bundled-java-runtime-is-version-2101110)
+    - [I03. Improvements to rendering of diagram figures](#i03-improvements-to-rendering-of-diagram-figures)
+    - [I04. A figure’s width and height is no longer 1 pixel short due to fixes in GEF/Draw2d](#i04-a-figures-width-and-height-is-no-longer-1-pixel-short-due-to-fixes-in-gefdraw2d)
+    - [I05. Use a tooltip to display the parent folder paths in “Used in Views” and “Model Relations” analysis tables](#i05-use-a-tooltip-to-display-the-parent-folder-paths-in-used-in-views-and-model-relations-analysis-tables)
   - [Fixes](#fixes)
 
 ## Overview of Testing
+
+Archi 5.10 Release Post is here: https://www.archimatetool.com/blog/2026/09/03/archi-5-10/
 
 Parallel run Archi 5.9.0 (installed package) and 5.10.0 (extracted zip package)
 
@@ -80,6 +87,8 @@ Export both model to HTML report, below you can see the HTML element documentati
 
 ### N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)
 
+> Archi: "You can now also add elements to an ArchiMate View using the Quick Add popup. To open it, Alt-click where you want the element to appear, or use the default shortcut Shift+A. Type in the filter box to search for an element then press Enter or double-click to add it at the cursor’s location."
+
 In v5.9.0, you need to drag an element icon from Palette to add it into the view; this new feature in v5.10.0 allows you to use `Alt+Click` (Click the view area) or `Shift+A` (click the view area first to activate "focus" to the view) to pop up one element palette list dialog:
 
 ![5.10_n02](img/5.10_n02.png)
@@ -90,11 +99,29 @@ If you want to use one existing element, still `drag and drop` from model tree,.
 
 ### N03. Support for SVG image format in diagram figures
 
+> Archi: "You can now use SVG images in figures. These are the images that can be used for Specializations and general images in Notes and Canvas objects. Using the SVG format means that the image can be scaled without loss of quality. The Archi 5.10 User Guide has more information in the section “SVG Support”."
+
 I see both v5.9.0 and v5.10.0 can support SVG as the exported view image format, as below:
 
 ![5.10_n03](img/5.10_n03.png)
 
+While, to this release, the change is in the `Specialization Manager`, when you create/edit one specialization element and press `Image` button then add one new image, the File-Open dialog will be appeared, and below you can see the difference:
+
+| v5.9.0 | v5.10.0|
+| --- | --- |
+| `*.png,*.jpg,*.jpeg,*.gif,*.tif,*.tiff,*.bmp,*.ico` | `*.png,*.jpg,*.jpeg,*.gif,*.tif,*.tiff,*.bmp,*.ico` and added `*.svg` |
+| ![N03-5.9.0](img/N03-5.9.0.png) | ![N03-5.10.0](img/N03-5.10.0.png) |
+
+However, as below, I create two specialization, one in PNG and the other in SVG, the PNG is able to be displayed, but SVG is not:
+
+![N03-5.10.0-SVG-not-shown](img/N03-5.10.0-SVG-not-shown.png)
+
 ### N04. Support multi-monitor display scaling on Windows (Eclipse)
+
+> Archi: "This support is provided by using the latest Eclipse framework."
+
+> [!Note]
+> Check https://github.com/archimatetool/archi/issues/1238#issuecomment-4343473602 for more information.
 
 Not see specific, will keep monitor.
 
@@ -126,9 +153,13 @@ Do not see the behavior difference between v5.9.0 and v5.10.0.
 
 ### N08. New grid display in diagrams
 
+> Archi: "The grid in diagrams now uses a “hierarchical” display."
+
 ![5.10_n08](img/5.10_n08.png)
 
 ### N09. Add new option for connection label offset (North, South, East, etc.)
+
+> Archi: "There’s a new “Label Offset” adjustment for connections. This sets the relative position of the connection’s label if its position is “Middle”. This means that connection labels can be positioned away from the connection. Options are “Centre”, “North”, “South”, “East”, “West”, “North East”, “North West”, “South East”, and “South West”."
 
 ![5.10_n09](img/5.10_n09.png)
 
@@ -174,21 +205,104 @@ Note from `Plateau`, `Location` and `Grouping` you now - in v5.10.0 - can have `
 
 ### N13. Add Clear Cache button for Edge browser in preferences on Windows
 
+Not feel specific impact since I'm maining using Chrome.
+
 ### N14. Import ArchiMate exchange format creates a bendpoint on connection for sourceAttachment and targetAttachment
+
+Not yet tested.
 
 ### N15. Add a preference to show a circle indicator in tabs rather than an asterisk for unsaved changes
 
+By default, v5.10.0 is set as same as v5.9.0, when there're unsaved changes, the asterisk (*) is appeared in the test of the tab texts:
+
+![N15-both-before](img/N15-both-before.png)
+
+In v5.10.0, as below, one new option can be checked in `Edit > Preferences... > Appearance`, called `Show a circle in tabs to indicate unsaved changes`:
+
+![N15-preferences](img/N15-preferences.png)
+
+Once this option is checked and clicke `Apply and Close`, the appearance in v5.10.0 for unsaved changes is shown in tabs as below:
+
+![N15-5.10.0-after](img/N15-5.10.0-after.png)
+
+The circle's black color in the active tab is darker than the inactive tabs.
+
+> [!Note]
+> However, the `Use round tabs` option in v5.9.0 is not shown in v5.10.0
+
 ## Improvements
 
-I01. Built on Eclipse 4.40 and the latest Eclipse GEF/Draw2d frameworks
+### I01. Built on Eclipse 4.40 and the latest Eclipse GEF/Draw2d frameworks
 
-I02. Bundled Java Runtime is version 21.0.11+10
+### I02. Bundled Java Runtime is version 21.0.11+10
 
-I03. Improvements to rendering of diagram figures
+From `Archi/jre/release` --
 
-I04. A figure’s width and height is no longer 1 pixel short due to fixes in GEF/Draw2d
+v5.9.0:
 
-I05. Use a tooltip to display the parent folder paths in “Used in Views” and “Model Relations” analysis tables
+```text
+IMPLEMENTOR="Eclipse Adoptium"
+IMPLEMENTOR_VERSION="Temurin-21.0.9+10"
+JAVA_RUNTIME_VERSION="21.0.9+10-LTS"
+JAVA_VERSION="21.0.9"
+JAVA_VERSION_DATE="2025-10-21"
+LIBC="default"
+MODULES="java.base java.compiler java.datatransfer java.xml java.prefs java.desktop java.instrument java.logging java.management java.security.sasl java.naming java.rmi java.management.rmi java.net.http java.scripting java.security.jgss java.transaction.xa java.sql java.sql.rowset java.xml.crypto java.se java.smartcardio jdk.accessibility jdk.internal.jvmstat jdk.attach jdk.charsets jdk.internal.opt jdk.zipfs jdk.compiler jdk.crypto.ec jdk.crypto.cryptoki jdk.crypto.mscapi jdk.dynalink jdk.internal.ed jdk.editpad jdk.hotspot.agent jdk.httpserver jdk.incubator.vector jdk.internal.le jdk.internal.vm.ci jdk.internal.vm.compiler jdk.internal.vm.compiler.management jdk.jartool jdk.javadoc jdk.jcmd jdk.management jdk.management.agent jdk.jconsole jdk.jdeps jdk.jdwp.agent jdk.jdi jdk.jfr jdk.jlink jdk.jpackage jdk.jshell jdk.jsobject jdk.jstatd jdk.localedata jdk.management.jfr jdk.naming.dns jdk.naming.rmi jdk.net jdk.nio.mapmode jdk.random jdk.sctp jdk.security.auth jdk.security.jgss jdk.unsupported jdk.unsupported.desktop jdk.xml.dom"
+OS_ARCH="x86_64"
+OS_NAME="Windows"
+SOURCE=".:git:759062135b07"
+BUILD_SOURCE="git:839fa0b45d809157cffd3dc8515aad262a4a1776"
+BUILD_SOURCE_REPO="https://github.com/adoptium/temurin-build.git"
+SOURCE_REPO="https://github.com/adoptium/jdk21u.git"
+FULL_VERSION="21.0.9+10-LTS"
+SEMANTIC_VERSION="21.0.9+10"
+BUILD_INFO="OS: Windows Server 2022 Version: 10.0"
+JVM_VARIANT="Hotspot"
+JVM_VERSION="21.0.9+10-LTS"
+IMAGE_TYPE="JRE"
+```
+
+v5.10.0:
+
+```text
+IMPLEMENTOR="Eclipse Adoptium"
+IMPLEMENTOR_VERSION="Temurin-21.0.11+10"
+JAVA_RUNTIME_VERSION="21.0.11+10-LTS"
+JAVA_VERSION="21.0.11"
+JAVA_VERSION_DATE="2026-04-21"
+LIBC="default"
+MODULES="java.base java.compiler java.datatransfer java.xml java.prefs java.desktop java.instrument java.logging java.management java.security.sasl java.naming java.rmi java.management.rmi java.net.http java.scripting java.security.jgss java.transaction.xa java.sql java.sql.rowset java.xml.crypto java.se java.smartcardio jdk.accessibility jdk.internal.jvmstat jdk.attach jdk.charsets jdk.internal.opt jdk.zipfs jdk.compiler jdk.crypto.ec jdk.crypto.cryptoki jdk.crypto.mscapi jdk.dynalink jdk.internal.ed jdk.editpad jdk.hotspot.agent jdk.httpserver jdk.incubator.vector jdk.internal.le jdk.internal.vm.ci jdk.internal.vm.compiler jdk.internal.vm.compiler.management jdk.jartool jdk.javadoc jdk.jcmd jdk.management jdk.management.agent jdk.jconsole jdk.jdeps jdk.jdwp.agent jdk.jdi jdk.jfr jdk.jlink jdk.jpackage jdk.jshell jdk.jsobject jdk.jstatd jdk.localedata jdk.management.jfr jdk.naming.dns jdk.naming.rmi jdk.net jdk.nio.mapmode jdk.random jdk.sctp jdk.security.auth jdk.security.jgss jdk.unsupported jdk.unsupported.desktop jdk.xml.dom"
+OS_ARCH="x86_64"
+OS_NAME="Windows"
+SOURCE=".:git:254494ad7d75"
+BUILD_SOURCE="git:a612825ee82a20ac872d60958c349854c1f29a8e"
+BUILD_SOURCE_REPO="https://github.com/adoptium/temurin-build.git"
+SOURCE_REPO="https://github.com/adoptium/jdk21u.git"
+FULL_VERSION="21.0.11+10-LTS"
+SEMANTIC_VERSION="21.0.11+10"
+BUILD_INFO="OS: Windows Server 2022 Version: 10.0"
+JVM_VARIANT="Hotspot"
+JVM_VERSION="21.0.11+10-LTS"
+IMAGE_TYPE="JRE"
+```
+
+### I03. Improvements to rendering of diagram figures
+
+> Archi: "Improvements have been made to the rendering of figures thanks to using the latest Graphical Eclipse Framework. Notably, a figure’s width and height is no longer 1 pixel short in relation to the grid."
+
+### I04. A figure’s width and height is no longer 1 pixel short due to fixes in GEF/Draw2d
+
+Related to above I03.
+
+### I05. Use a tooltip to display the parent folder paths in “Used in Views” and “Model Relations” analysis tables
+
+This is very useful improvement, since in v5.9.0, the full folder structure is shown in "Used in Views" list, which makes difficult to see all detail view level names if the folders hierarchy is too deep.
+
+v5.10.0 returns the display to just show View name itself, while adding tooltip so you can see the full folder structure when you hover mouse over specific view line.
+
+For testing, in both version, create view `Sample View I05` under view folder named `I05`, drag some elements into the view, then observe from `Properties > Analysis`:
+
+
 
 I06. Update themes to the latest Eclipse versions
 
@@ -246,4 +360,4 @@ F07. Many internal fixes and optimisations
 
 ---
 
-Last updated at 2026-10-21
+Last updated at 2026-10-22
