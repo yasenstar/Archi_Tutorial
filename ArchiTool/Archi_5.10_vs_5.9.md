@@ -24,6 +24,11 @@
     - [I03. Improvements to rendering of diagram figures](#i03-improvements-to-rendering-of-diagram-figures)
     - [I04. A figure’s width and height is no longer 1 pixel short due to fixes in GEF/Draw2d](#i04-a-figures-width-and-height-is-no-longer-1-pixel-short-due-to-fixes-in-gefdraw2d)
     - [I05. Use a tooltip to display the parent folder paths in “Used in Views” and “Model Relations” analysis tables](#i05-use-a-tooltip-to-display-the-parent-folder-paths-in-used-in-views-and-model-relations-analysis-tables)
+      - [Tooltip - "Used in Views"](#tooltip---used-in-views)
+      - [Tooltip - "Model Relations"](#tooltip---model-relations)
+    - [I06. Update themes to the latest Eclipse versions](#i06-update-themes-to-the-latest-eclipse-versions)
+    - [I07. The “Classic” theme has been removed as it’s no longer supported in Eclipse 4.40 and later](#i07-the-classic-theme-has-been-removed-as-its-no-longer-supported-in-eclipse-440-and-later)
+    - [I08. The round tabs option has been removed from appearance preferences as it’s no longer supported in Eclipse 4.40 and later](#i08-the-round-tabs-option-has-been-removed-from-appearance-preferences-as-its-no-longer-supported-in-eclipse-440-and-later)
   - [Fixes](#fixes)
 
 ## Overview of Testing
@@ -209,7 +214,19 @@ Not feel specific impact since I'm maining using Chrome.
 
 ### N14. Import ArchiMate exchange format creates a bendpoint on connection for sourceAttachment and targetAttachment
 
-Not yet tested.
+Open `ArchiSurance2025.archimate` in v5.9.0:
+
+![N14_1-open-model-in-5.9.0](img/N14_1-open-model-in-5.9.0.png)
+
+Select menu `[File] > [Export] > [Model to Open Exchange File...]`:
+
+![N14_2-export-to-openexchange](img/N14_2-export-to-openexchange.png)
+
+Give one exported file name:
+
+![N14_3-openexchange](img/N14_3-openexchange.png)
+
+> Not yet creating the difference comparison.
 
 ### N15. Add a preference to show a circle indicator in tabs rather than an asterisk for unsaved changes
 
@@ -296,19 +313,45 @@ Related to above I03.
 
 ### I05. Use a tooltip to display the parent folder paths in “Used in Views” and “Model Relations” analysis tables
 
+#### Tooltip - "Used in Views"
+
 This is very useful improvement, since in v5.9.0, the full folder structure is shown in "Used in Views" list, which makes difficult to see all detail view level names if the folders hierarchy is too deep.
 
 v5.10.0 returns the display to just show View name itself, while adding tooltip so you can see the full folder structure when you hover mouse over specific view line.
 
 For testing, in both version, create view `Sample View I05` under view folder named `I05`, drag some elements into the view, then observe from `Properties > Analysis`:
 
+![I05_1-display](img/I05_1-display.png)
 
+The `Marketing Management (Capability)` is used in two views, one view is under folder structure, in v5.9.0, the "Used in Views" list the full path, while in v5.10.0, only shows the view name.
 
-I06. Update themes to the latest Eclipse versions
+When you put mouse hover on that view displayed name, in v5.9.0, nothing happens, while in v5.10.0, a tooltip pops up:
 
-I07. The “Classic” theme has been removed as it’s no longer supported in Eclipse 4.40 and later
+![I05_2-display-tooltip](img/I05_2-display-tooltip.png)
 
-I08. The round tabs option has been removed from appearance preferences as it’s no longer supported in Eclipse 4.40 and later
+#### Tooltip - "Model Relations"
+
+This behavior is also same in the name list of "Model Relations", as below, when you're creating large amounts of relationships, it would be also good practice to manage the relations into certain folder structure, this sample the `Composition Relation` is organized under one layer of Relations folder.
+
+In v5.10.0, when selecting the Capability element, this relation is shown in the "Model Relations" list, the display is only the relation name instead of having the full path as v5.9.0, the tooltip is enabled so you can see the path while hover your mouse cursor over it:
+
+![I05_3-display-relations-tooltip](img/I05_3-display-relations-tooltip.png)
+
+### I06. Update themes to the latest Eclipse versions
+
+### I07. The “Classic” theme has been removed as it’s no longer supported in Eclipse 4.40 and later
+
+Choose `[Edit] > [Preferences] > [Appearance]`
+
+| v5.9.0 | v5.10.0 |
+| --- | --- |
+| ![I07_5.9.0](img/I07_5.9.0.png) | ![I07_5.10.0](img/I07_5.10.0.png) |
+
+### I08. The round tabs option has been removed from appearance preferences as it’s no longer supported in Eclipse 4.40 and later
+
+Choose `[Edit] > [Preferences] > [Appearance]`
+
+![I08](img/I08.png)
 
 I09. The focused element’s node in the Visualiser has an italic font to differentiate it
 
