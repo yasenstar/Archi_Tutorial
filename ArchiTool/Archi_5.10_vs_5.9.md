@@ -133,6 +133,8 @@ I see both v5.9.0 and v5.10.0 can support SVG as the exported view image format,
 
 ![5.10_n03](img/5.10_n03.png)
 
+Find free SVG images: https://freesvg.org/
+
 While, to this release, the change is in the `Specialization Manager`, when you create/edit one specialization element and press `Image` button then add one new image, the File-Open dialog will be appeared, and below you can see the difference:
 
 | v5.9.0 | v5.10.0|
