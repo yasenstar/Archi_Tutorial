@@ -3,7 +3,7 @@
 - [Archi 5.10 Functionality Compares with 5.9](#archi-510-functionality-compares-with-59)
   - [Overview of Testing](#overview-of-testing)
   - [New Features](#new-features)
-    - [N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports](#n01-add-markdownhtml-support-for-documentation-fields-in-properties-tab-and-html-reports)
+    - [\*N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports](#n01-add-markdownhtml-support-for-documentation-fields-in-properties-tab-and-html-reports)
     - [N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)](#n02-add-quick-add-popup-dialog-in-archimate-views-altclick-and-shifta-shortcuts)
     - [N03. Support for SVG image format in diagram figures](#n03-support-for-svg-image-format-in-diagram-figures)
     - [N04. Support multi-monitor display scaling on Windows (Eclipse)](#n04-support-multi-monitor-display-scaling-on-windows-eclipse)
@@ -29,7 +29,30 @@
     - [I06. Update themes to the latest Eclipse versions](#i06-update-themes-to-the-latest-eclipse-versions)
     - [I07. The “Classic” theme has been removed as it’s no longer supported in Eclipse 4.40 and later](#i07-the-classic-theme-has-been-removed-as-its-no-longer-supported-in-eclipse-440-and-later)
     - [I08. The round tabs option has been removed from appearance preferences as it’s no longer supported in Eclipse 4.40 and later](#i08-the-round-tabs-option-has-been-removed-from-appearance-preferences-as-its-no-longer-supported-in-eclipse-440-and-later)
+    - [I09. The focused element’s node in the Visualiser has an italic font to differentiate it](#i09-the-focused-elements-node-in-the-visualiser-has-an-italic-font-to-differentiate-it)
+    - [I10. Improve calculation of some connection anchors](#i10-improve-calculation-of-some-connection-anchors)
+    - [I11. Improvements to link regex parsing in text fields](#i11-improvements-to-link-regex-parsing-in-text-fields)
+    - [I12. Archi version 4.x to 5.x automatic migrator removed](#i12-archi-version-4x-to-5x-automatic-migrator-removed)
+    - [I13. Set text position to bottom for some types in figure type preview](#i13-set-text-position-to-bottom-for-some-types-in-figure-type-preview)
+    - [I14. Improved columns widths in the “ArchiMate Relationships” dialog](#i14-improved-columns-widths-in-the-archimate-relationships-dialog)
+    - [I15. Select All action in Tree views now updates the selection in other views](#i15-select-all-action-in-tree-views-now-updates-the-selection-in-other-views)
+    - [I16. Improvements to diagram scale calculation](#i16-improvements-to-diagram-scale-calculation)
+    - [I17. Improved handling of ArchiMate relationship rules](#i17-improved-handling-of-archimate-relationship-rules)
+    - [I18. Added support for future handling of derived and direct relationships](#i18-added-support-for-future-handling-of-derived-and-direct-relationships)
+    - [I19. Remove unnecessary “p2/org.eclipse.equinox.p2.core”, “org.eclipse.equinox.p2.engine/.settings” and “org.eclipse.equinox.p2.repository” directories from build](#i19-remove-unnecessary-p2orgeclipseequinoxp2core-orgeclipseequinoxp2enginesettings-and-orgeclipseequinoxp2repository-directories-from-build)
+    - [I20. Improvements to error logging](#i20-improvements-to-error-logging)
+    - [I21. Improvements to menu handling so that plug-ins can contribute to the main “View” menu](#i21-improvements-to-menu-handling-so-that-plug-ins-can-contribute-to-the-main-view-menu)
+    - [I22. Update Jasper Reports Fonts library to version 6.21.4 – fixes some issues with emojis and other characters](#i22-update-jasper-reports-fonts-library-to-version-6214--fixes-some-issues-with-emojis-and-other-characters)
+    - [I23. \[HTML Report\] Update StringTemplate library to version 4.3.4 – fixes some issues with emojis and other characters](#i23-html-report-update-stringtemplate-library-to-version-434--fixes-some-issues-with-emojis-and-other-characters)
+    - [I24. \[HTML Report\] Update jQuery to version 3.7.1](#i24-html-report-update-jquery-to-version-371)
   - [Fixes](#fixes)
+    - [F01. Fix “Delete From Model” not deleting all connected relationships](#f01-fix-delete-from-model-not-deleting-all-connected-relationships)
+    - [F02. Ensure that only one Specialization is set for a Concept](#f02-ensure-that-only-one-specialization-is-set-for-a-concept)
+    - [F03. Fix connection not highlighted blue when hovering with connection creation tool or magic connector](#f03-fix-connection-not-highlighted-blue-when-hovering-with-connection-creation-tool-or-magic-connector)
+    - [F04. Fix possible image export not using display scaling when switching from 100% dislay to higher display scales](#f04-fix-possible-image-export-not-using-display-scaling-when-switching-from-100-dislay-to-higher-display-scales)
+    - [F05. Fix possible exception in Templates Manager](#f05-fix-possible-exception-in-templates-manager)
+    - [F06. Many fixes in the Eclipse frameworks](#f06-many-fixes-in-the-eclipse-frameworks)
+    - [F07. Many internal fixes and optimisations](#f07-many-internal-fixes-and-optimisations)
 
 ## Overview of Testing
 
@@ -48,7 +71,7 @@ The new model will be created in each version for apple-to-apple comparison, whe
 
 ## New Features
 
-### N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports
+### *N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports
 
 Using following as the test Documentation for one sample element - capability:
 
@@ -353,54 +376,62 @@ Choose `[Edit] > [Preferences] > [Appearance]`
 
 ![I08](img/I08.png)
 
-I09. The focused element’s node in the Visualiser has an italic font to differentiate it
+### I09. The focused element’s node in the Visualiser has an italic font to differentiate it
 
-I10. Improve calculation of some connection anchors
+![I09](img/I09.png)
 
-I11. Improvements to link regex parsing in text fields
+### I10. Improve calculation of some connection anchors
 
-I12. Archi version 4.x to 5.x automatic migrator removed
+### I11. Improvements to link regex parsing in text fields
 
-I13. Set text position to bottom for some types in figure type preview
+### I12. Archi version 4.x to 5.x automatic migrator removed
 
-I14. Improved columns widths in the “ArchiMate Relationships” dialog
+This is legacy compability improvement, no need to be tested from v5.9.0 to v5.10.0
 
-I15. Select All action in Tree views now updates the selection in other views
+### I13. Set text position to bottom for some types in figure type preview
 
-I16. Improvements to diagram scale calculation
+### I14. Improved columns widths in the “ArchiMate Relationships” dialog
 
-I17. Improved handling of ArchiMate relationship rules
+See from below comparison, in v5.9.0, you may double-click the column's edge line then it will be auto-arrange to smaller width, while in 5.10.0, it's by default the optimized width.
 
-I18. Added support for future handling of derived and direct relationships
+![I14](img/I14.png)
 
-I19. Remove unnecessary “p2/org.eclipse.equinox.p2.core”, “org.eclipse.equinox.p2.engine/.settings” and “org.eclipse.equinox.p2.repository” directories from build
+### I15. Select All action in Tree views now updates the selection in other views
 
-I20. Improvements to error logging
+### I16. Improvements to diagram scale calculation
 
-I21. Improvements to menu handling so that plug-ins can contribute to the main “View” menu
+### I17. Improved handling of ArchiMate relationship rules
 
-I22. Update Jasper Reports Fonts library to version 6.21.4 – fixes some issues with emojis and other characters
+### I18. Added support for future handling of derived and direct relationships
 
-I23. [HTML Report] Update StringTemplate library to version 4.3.4 – fixes some issues with emojis and other characters
+### I19. Remove unnecessary “p2/org.eclipse.equinox.p2.core”, “org.eclipse.equinox.p2.engine/.settings” and “org.eclipse.equinox.p2.repository” directories from build
 
-I24. [HTML Report] Update jQuery to version 3.7.1
+### I20. Improvements to error logging
+
+### I21. Improvements to menu handling so that plug-ins can contribute to the main “View” menu
+
+### I22. Update Jasper Reports Fonts library to version 6.21.4 – fixes some issues with emojis and other characters
+
+### I23. [HTML Report] Update StringTemplate library to version 4.3.4 – fixes some issues with emojis and other characters
+
+### I24. [HTML Report] Update jQuery to version 3.7.1
 
 ## Fixes
 
-F01. Fix “Delete From Model” not deleting all connected relationships
+### F01. Fix “Delete From Model” not deleting all connected relationships
 
-F02. Ensure that only one Specialization is set for a Concept
+### F02. Ensure that only one Specialization is set for a Concept
 
-F03. Fix connection not highlighted blue when hovering with connection creation tool or magic connector
+### F03. Fix connection not highlighted blue when hovering with connection creation tool or magic connector
 
-F04. Fix possible image export not using display scaling when switching from 100% dislay to higher display scales
+### F04. Fix possible image export not using display scaling when switching from 100% dislay to higher display scales
 
-F05. Fix possible exception in Templates Manager
+### F05. Fix possible exception in Templates Manager
 
-F06. Many fixes in the Eclipse frameworks
+### F06. Many fixes in the Eclipse frameworks
 
-F07. Many internal fixes and optimisations
+### F07. Many internal fixes and optimisations
 
 ---
 
-Last updated at 2026-10-22
+Last updated at 2026-10-23
