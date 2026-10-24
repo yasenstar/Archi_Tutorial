@@ -10,9 +10,9 @@
     - [\* N05. Add zoom support to the Visualiser](#-n05-add-zoom-support-to-the-visualiser)
     - [\* N06. Add “Manhattan Router” option for connections to the Visualiser](#-n06-add-manhattan-router-option-for-connections-to-the-visualiser)
     - [N07. Zoom in diagrams now centres on the mouse cursor location](#n07-zoom-in-diagrams-now-centres-on-the-mouse-cursor-location)
-    - [N08. New grid display in diagrams](#n08-new-grid-display-in-diagrams)
-    - [N09. Add new option for connection label offset (North, South, East, etc.)](#n09-add-new-option-for-connection-label-offset-north-south-east-etc)
-    - [N10. New selection and drag outline figures](#n10-new-selection-and-drag-outline-figures)
+    - [\* N08. New grid display in diagrams](#-n08-new-grid-display-in-diagrams)
+    - [\* N09. Add new option for connection label offset (North, South, East, etc.)](#-n09-add-new-option-for-connection-label-offset-north-south-east-etc)
+    - [\* N10. New selection and drag outline figures](#-n10-new-selection-and-drag-outline-figures)
     - [N11. Allow Aggregation/Composition connections from Grouping/Location to Junction](#n11-allow-aggregationcomposition-connections-from-groupinglocation-to-junction)
     - [N12. Add relationships to the “ArchiMate Relationships” dialog](#n12-add-relationships-to-the-archimate-relationships-dialog)
     - [N13. Add Clear Cache button for Edge browser in preferences on Windows](#n13-add-clear-cache-button-for-edge-browser-in-preferences-on-windows)
@@ -181,13 +181,13 @@ This is one toggle setting, click it again will restore the original style:
 
 Do not see the behavior difference between v5.9.0 and v5.10.0.
 
-### N08. New grid display in diagrams
+### * N08. New grid display in diagrams
 
 > Archi: "The grid in diagrams now uses a “hierarchical” display."
 
 ![5.10_n08](img/5.10_n08.png)
 
-### N09. Add new option for connection label offset (North, South, East, etc.)
+### * N09. Add new option for connection label offset (North, South, East, etc.)
 
 > Archi: "There’s a new “Label Offset” adjustment for connections. This sets the relative position of the connection’s label if its position is “Middle”. This means that connection labels can be positioned away from the connection. Options are “Centre”, “North”, “South”, “East”, “West”, “North East”, “North West”, “South East”, and “South West”."
 
@@ -197,7 +197,7 @@ The 9 positions are indicated as below:
 
 ![5.10_n09-1](img/5.10_n09-1.png)
 
-### N10. New selection and drag outline figures
+### * N10. New selection and drag outline figures
 
 | v5.9.0 | v5.10.0 |
 | --- | --- |
