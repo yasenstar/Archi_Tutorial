@@ -3,12 +3,12 @@
 - [Archi 5.10 Functionality Compares with 5.9](#archi-510-functionality-compares-with-59)
   - [Overview of Testing](#overview-of-testing)
   - [New Features](#new-features)
-    - [\*N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports](#n01-add-markdownhtml-support-for-documentation-fields-in-properties-tab-and-html-reports)
-    - [N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)](#n02-add-quick-add-popup-dialog-in-archimate-views-altclick-and-shifta-shortcuts)
-    - [N03. Support for SVG image format in diagram figures](#n03-support-for-svg-image-format-in-diagram-figures)
+    - [\* N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports](#-n01-add-markdownhtml-support-for-documentation-fields-in-properties-tab-and-html-reports)
+    - [\* N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)](#-n02-add-quick-add-popup-dialog-in-archimate-views-altclick-and-shifta-shortcuts)
+    - [\* N03. Support for SVG image format in diagram figures](#-n03-support-for-svg-image-format-in-diagram-figures)
     - [N04. Support multi-monitor display scaling on Windows (Eclipse)](#n04-support-multi-monitor-display-scaling-on-windows-eclipse)
-    - [N05. Add zoom support to the Visualiser](#n05-add-zoom-support-to-the-visualiser)
-    - [N06. Add “Manhattan Router” option for connections to the Visualiser](#n06-add-manhattan-router-option-for-connections-to-the-visualiser)
+    - [\* N05. Add zoom support to the Visualiser](#-n05-add-zoom-support-to-the-visualiser)
+    - [\* N06. Add “Manhattan Router” option for connections to the Visualiser](#-n06-add-manhattan-router-option-for-connections-to-the-visualiser)
     - [N07. Zoom in diagrams now centres on the mouse cursor location](#n07-zoom-in-diagrams-now-centres-on-the-mouse-cursor-location)
     - [N08. New grid display in diagrams](#n08-new-grid-display-in-diagrams)
     - [N09. Add new option for connection label offset (North, South, East, etc.)](#n09-add-new-option-for-connection-label-offset-north-south-east-etc)
@@ -71,7 +71,7 @@ The new model will be created in each version for apple-to-apple comparison, whe
 
 ## New Features
 
-### *N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports
+### * N01. Add Markdown/HTML support for documentation fields in Properties tab and HTML reports
 
 Using following as the test Documentation for one sample element - capability:
 
@@ -113,7 +113,7 @@ Export both model to HTML report, below you can see the HTML element documentati
 
 ![5.10_n01_4-jasper](img/5.10_n01_4-jasper.png)
 
-### N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)
+### * N02. Add “Quick Add” popup dialog in ArchiMate Views (Alt+click and Shift+A shortcuts)
 
 > Archi: "You can now also add elements to an ArchiMate View using the Quick Add popup. To open it, Alt-click where you want the element to appear, or use the default shortcut Shift+A. Type in the filter box to search for an element then press Enter or double-click to add it at the cursor’s location."
 
@@ -125,7 +125,7 @@ Select one target element then double-click to add into the view.
 
 If you want to use one existing element, still `drag and drop` from model tree,.
 
-### N03. Support for SVG image format in diagram figures
+### * N03. Support for SVG image format in diagram figures
 
 > Archi: "You can now use SVG images in figures. These are the images that can be used for Specializations and general images in Notes and Canvas objects. Using the SVG format means that the image can be scaled without loss of quality. The Archi 5.10 User Guide has more information in the section “SVG Support”."
 
@@ -155,7 +155,7 @@ However, as below, I create two specialization, one in PNG and the other in SVG,
 
 Not see specific, will keep monitor.
 
-### N05. Add zoom support to the Visualiser
+### * N05. Add zoom support to the Visualiser
 
 In v5.10.0, inside Visualiser area, use `Ctrl` + mouse' scroll-wheel to adjust, there're 7 levels of zoom-in and zoom-out.
 
@@ -163,7 +163,7 @@ In v5.10.0, inside Visualiser area, use `Ctrl` + mouse' scroll-wheel to adjust, 
 
 ![5.10_n05](img/5.10_n05.png)
 
-### N06. Add “Manhattan Router” option for connections to the Visualiser
+### * N06. Add “Manhattan Router” option for connections to the Visualiser
 
 | v5.9.0 | v5.10.0|
 | --- | --- |
@@ -436,4 +436,4 @@ See from below comparison, in v5.9.0, you may double-click the column's edge lin
 
 ---
 
-Last updated at 2026-10-23
+Last updated at 2026-10-24
