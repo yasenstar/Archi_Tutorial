@@ -13,8 +13,8 @@
     - [\* N08. New grid display in diagrams](#-n08-new-grid-display-in-diagrams)
     - [\* N09. Add new option for connection label offset (North, South, East, etc.)](#-n09-add-new-option-for-connection-label-offset-north-south-east-etc)
     - [\* N10. New selection and drag outline figures](#-n10-new-selection-and-drag-outline-figures)
-    - [N11. Allow Aggregation/Composition connections from Grouping/Location to Junction](#n11-allow-aggregationcomposition-connections-from-groupinglocation-to-junction)
-    - [N12. Add relationships to the “ArchiMate Relationships” dialog](#n12-add-relationships-to-the-archimate-relationships-dialog)
+    - [\* N11. Allow Aggregation/Composition connections from Grouping/Location to Junction](#-n11-allow-aggregationcomposition-connections-from-groupinglocation-to-junction)
+    - [\* N12. Add relationships to the “ArchiMate Relationships” dialog](#-n12-add-relationships-to-the-archimate-relationships-dialog)
     - [N13. Add Clear Cache button for Edge browser in preferences on Windows](#n13-add-clear-cache-button-for-edge-browser-in-preferences-on-windows)
     - [N14. Import ArchiMate exchange format creates a bendpoint on connection for sourceAttachment and targetAttachment](#n14-import-archimate-exchange-format-creates-a-bendpoint-on-connection-for-sourceattachment-and-targetattachment)
     - [N15. Add a preference to show a circle indicator in tabs rather than an asterisk for unsaved changes](#n15-add-a-preference-to-show-a-circle-indicator-in-tabs-rather-than-an-asterisk-for-unsaved-changes)
@@ -204,7 +204,7 @@ The 9 positions are indicated as below:
 | Outline figure is gray-filled | Outline figure is blue-filled |
 | ![N10-5.9.0](img/N10-5.9.0.png) | ![N10-5.10.0](img/N10-5.10.0.png) |
 
-### N11. Allow Aggregation/Composition connections from Grouping/Location to Junction
+### * N11. Allow Aggregation/Composition connections from Grouping/Location to Junction
 
 | | v5.9.0 | v5.10.0 |
 | --- | --- | --- |
@@ -227,7 +227,7 @@ Here you don't see the difference, however, now in v5.10.0, after you create the
 | `Junction` is invisible when analyzing `Grouping`'s composition relation | `Junction` is visible after added as `Composes Of` from `Grouping` |
 | ![N11-5.9.0-grouping-2](img/N11-5.9.0-grouping-2.png) | ![N11-5.10.0-grouping-2](img/N11-5.10.0-grouping-2.png) |
 
-### N12. Add relationships to the “ArchiMate Relationships” dialog
+### * N12. Add relationships to the “ArchiMate Relationships” dialog
 
 ![N12-5.9.0-5.10.0](img/N12-5.9.0-5.10.0.png)
 
